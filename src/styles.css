@@ -1,0 +1,12 @@
+body{
+    margin: 0 0 0 0;
+    height: fit-content;
+}
+#root {
+    height: fit-content;
+}
+
+code {
+    font-family: 'Noto Sans', sans-serif;
+}
+
