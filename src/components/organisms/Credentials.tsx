@@ -32,7 +32,7 @@ const Credentials = (
                 >
                     {title}
                 </Text>
-                <Img src={'credentials/' + photo} alt={'photo'} borderRadius={'30%'} width={'50px'} height={'50px'} />
+                <Img src={'credentials/' + photo} alt={'photo'} borderRadius={'30%'} width={'100px'} height={'100px'} />
             </Flex>
         </Flex>
     );
