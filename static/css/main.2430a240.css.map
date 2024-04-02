@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.2430a240.css","mappings":"AAAA,KACI,QAEJ,CACA,WAFI,0BAAmB,CAAnB,uBAAmB,CAAnB,kBAIJ,CAEA,KACI,gCACJ","sources":["styles.css"],"sourcesContent":["body{\n    margin: 0 0 0 0;\n    height: fit-content;\n}\n#root {\n    height: fit-content;\n}\n\ncode {\n    font-family: 'Noto Sans', sans-serif;\n}\n\n"],"names":[],"sourceRoot":""}
