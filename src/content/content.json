@@ -903,6 +903,139 @@
                     }
                 ]
             }, {
+                "header": "Проєкт",
+                "content": [{
+                        "type": "text",
+                        "data": "До проєкту було додано слайдшоу:"
+                    }, {
+                        "type": "code",
+                        "data": "<body>\n    <h2>Слайдшоу</h2>\n\n    <div class='slideshow-container'>\n\n        <div class='mySlides fade'>\n            <img src='../task2/img/foto1.png' style='width:100% ;height:300px'>\n        </div>\n\n        <div class='mySlides fade'>\n            <img src='../task2/img/foto2.png' style='width:100%;height:300px'>\n        </div>\n\n        <div class='mySlides fade'>\n            <img src='../task2/img/foto3.png' style='width:100%;height:300px'>\n        </div>\n\n    </div>\n    <br>\n\n    <div style='text-align:center'>\n        <span class='dot'></span>\n        <span class='dot'></span>\n        <span class='dot'></span>\n    </div>\n    <script src='../task2/script2.js'></script>\n</body>                    "
+                    },
+                    {
+                        "type": "code",
+                        "data": "var slideIndex = 0;\nshowSlides();\n\nfunction showSlides() {\n    var i;\n    var slides = document.getElementsByClassName('mySlides');\n    var dots = document.getElementsByClassName('dot');\n    for (i = 0; i < slides.length; i++) {\n       slides[i].style.display = 'none';  \n    }\n    slideIndex++;\n    if (slideIndex > slides.length) {slideIndex = 1}    \n    for (i = 0; i < dots.length; i++) {\n        dots[i].className = dots[i].className.replace(' active', '');\n    }\n    slides[slideIndex-1].style.display = 'block';  \n    dots[slideIndex-1].className += ' active';\n    setTimeout(showSlides, 2000);\n}                        "
+                    },
+                    {
+                        "type": "img",
+                        "data": "/l5_1.png"
+                    },
+                    {
+                        "type": "img",
+                        "data": "/l5_2.png"
+                    }
+                ]
+            }, {
+                "header": "Завдання до ЛР 5.1",
+                "content": [{
+                    "type": "text",
+                    "data": "Варіант непарний (5), отже завдання: 1 ,3, 5, 7, 9,10 "
+                }],
+                "subcontent": [{
+                        "header": "Завдання 1",
+                        "content": [{
+                                "type": "text",
+                                "data": "Напишіть наступні функції: createProduct(obj, callback) - приймає об 'єкт товару без id, а також коллбек. Функція створює об' єкт товару, додаючи йому унікальний ідентифікатор у властивість id та викликає коллбек передаючи йому створений об 'єкт. logProduct(product) - колббек що приймає об 'єкт продукту і логуючий його в консоль logTotalPrice(product) - колббек, що приймає об 'єкт продукту і логіює загальну вартість товару в консоль "
+                            },
+                            {
+                                "type": "img",
+                                "data": "/l5_3_1.png"
+                            },
+                            {
+                                "type": "code",
+                                "data": "let totalCostAllProducts = 0;\nfunction createProduct(obj, callback) {\n    const id = Math.random().toString(36).substr(2, 9);\n    const product = {...obj, id: id };\n    totalCostAllProducts += obj.price * obj.quantity;\n    callback(product);\n}\nfunction logProduct(product) {\n    console.log('Продукт:', product);\n}\nfunction logTotalPrice(product) {\n    let totalCostProduct = 0;\n    if (product.price && product.quantity) {\n        totalCostProduct = product.price * product.quantity;\n    }\n    console.log('Загальна вартість поточного продукту:', totalCostProduct);\n    console.log('Загальна вартість всіх товарів:', totalCostAllProducts);\n}\nconst product1 = {\n    name: 'Футболка',\n    price: 20,\n    quantity: 3\n};\ncreateProduct(product1, logProduct);\nlogTotalPrice(product1);\nconst product2 = {\n    name: 'Книга',\n    price: 15,\n    quantity: 2\n};\ncreateProduct(product2, logProduct);\nlogTotalPrice(product2);                            "
+                            }
+
+                        ]
+                    }, {
+                        "header": "Завдання 3",
+                        "content": [{
+                                "type": "text",
+                                "data": " З об'єкту medicines потрібно отримати масив   в якому будуть лише назви препаратів.З масиву  потрібно прибрати медикаменти , в яких строк зберігання  уже пройшов . У новому масиві відсортувати медикаменти  у хронологічному порядку.Результат вивести у консоль.Застосувати стрілочні функції"
+                            }, {
+                                "type": "code",
+                                "data": "const medicines = {\n    Агалгін: new Date('2022-05-01'),\n    Ношпа: new Date('2025-07-02'),\n    Альфахолін: new Date('2024-12-21'),\n    Аспірин: new Date('2022-08-15'),\n    Аспаркам: new Date('2024-04-18'),\n};"
+                            }, {
+                                "type": "img",
+                                "data": "/l5_3_3.png"
+                            },
+                            {
+                                "type": "code",
+                                "data": "const medicines = {\n    Агалгін: new Date('2022-05-01'),\n    Ношпа: new Date('2025-07-02'),\n    Альфахолін: new Date('2024-12-21'),\n    Аспірин: new Date('2022-08-15'),\n    Аспаркам: new Date('2024-04-18'),\n};\nconst medicineNames = Object.keys(medicines);\nconst currentMedicines = medicineNames.filter(medicine => medicines[medicine] > new Date());\nconst sortedMedicines = currentMedicines.sort((a, b) => medicines[a] - medicines[b]);\nconsole.log(sortedMedicines);                                "
+                            }
+                        ]
+                    },
+                    {
+                        "header": "Завдання 5",
+                        "content": [{
+                                "type": "text",
+                                "data": "Напишіть функцію, яка приймає массив об'єктів і повертає новий массив Зробіть знижку 20 % на всі фрукти у масиві Надайте ід для кожного продукту "
+                            },
+                            {
+                                "type": "code",
+                                "data": "const fruits = [\n  { name: 'apple', price: 200 },\n  { name: 'orange', price: 300 },\n  { name: 'grapes', price: 750 },\n];                                "
+
+                            }, {
+                                "type": "img",
+                                "data": "/l5_3_5.png"
+                            },
+                            {
+                                "type": "code",
+                                "data": "function applyDiscount(fruits) {\n    const calculateDiscountPrice = price => price * 0.8;\n    const discountedFruits = fruits.map((fruit, index) => {\n        const discountedPrice = calculateDiscountPrice(fruit.price);\n        return {\n            id: index + 1,\n            name: fruit.name,\n            price: discountedPrice\n        };\n    });\n    discountedFruits.forEach(fruit => {\n        console.log('Назва: ' + fruit.name + ', Ціна зі знижкою: ' + fruit.price);\n    });\n}\nconst fruits = [\n    { name: 'apple', price: 200 },\n    { name: 'orange', price: 300 },\n    { name: 'grapes', price: 750 },\n];\napplyDiscount(fruits);                                "
+                            }
+                        ]
+                    },
+                    {
+                        "header": "Завдання 7",
+                        "content": [{
+                                "type": "text",
+                                "data": "Напиши клас Client який створює об'єкт з властивостями login email Оголоси приватні властивості# login# email,доступ до яких зроби через геттер та сеттер login email "
+                            }, {
+                                "type": "img",
+                                "data": "/l5_3_7.png"
+                            },
+                            {
+                                "type": "code",
+                                "data": "class Client {\n    #login;\n    #email;\n    constructor(login, email) {\n        this.#login = login;\n        this.#email = email;\n    }\n    get login() {\n        return this.#login;\n    }\n    set login(newLogin) {\n        this.#login = newLogin;\n    }\n    get email() {\n        return this.#email;\n    }\n    set email(newEmail) {\n        this.#email = newEmail;\n    }\n}\nconst client1 = new Client('user123', 'user123@example.com');\nconsole.log(client1.login);\nconsole.log(client1.email);\nclient1.login = 'newuser';\nclient1.email = 'newuser@example.com';\nconsole.log(client1.login);\nconsole.log(client1.email);                                "
+                            }
+                        ]
+                    },
+                    {
+                        "header": "Завдання 9",
+                        "content": [{
+                                "type": "text",
+                                "data": "Поверніть об'єкт, в якому вказано кількість тегів.Очікуваний результат { js: 3, nodejs: 3, html: 2, css: 2, react: 2 }"
+                            },
+                            {
+                                "type": "code",
+                                "data": "const tweets = [\n    { id: '000', likes: 5, tags: ['js', 'nodejs'] },\n    { id: '001', likes: 2, tags: ['html', 'css'] },\n    { id: '002', likes: 17, tags: ['html', 'js', 'nodejs'] },\n    { id: '003', likes: 8, tags: ['css', 'react'] },\n    { id: '004', likes: 0, tags: ['js', 'nodejs', 'react'] },\n];"
+                            }, {
+                                "type": "img",
+                                "data": "/l5_3_9.png"
+                            },
+                            {
+                                "type": "code",
+                                "data": "const tweets = [\n    { id: '000', likes: 5, tags: ['js', 'nodejs'] },\n    { id: '001', likes: 2, tags: ['html', 'css'] },\n    { id: '002', likes: 17, tags: ['html', 'js', 'nodejs'] },\n    { id: '003', likes: 8, tags: ['css', 'react'] },\n    { id: '004', likes: 0, tags: ['js', 'nodejs', 'react'] },\n];\n\nconst tagCounts = tweets.reduce((acc, tweet) => {\n    tweet.tags.forEach(tag => {\n        acc[tag] = (acc[tag] || 0) + 1;\n    });\n    return acc;\n}, {});\n\nconsole.log(tagCounts);                                "
+                            }
+                        ]
+                    },
+                    {
+                        "header": "Завдання 10",
+                        "content": [{
+                                "type": "text",
+                                "data": "Напишіть функцію checkBrackets(str) яка приймає рядок жс коду (someFn) і перевіряє правильність закриття дужок () {} [] Якщо рядок містить коректний код функція повертає true. В іншому випадку повертає false"
+                            }, {
+                                "type": "img",
+                                "data": "/l5_3_10.png"
+                            },
+                            {
+                                "type": "code",
+                                "data": "function checkBrackets(str) { \nconst stack = []; \nconst openingBrackets = ['(', '[', '{']; \nconst closingBrackets = [')', ']', '}']; \nfor (let char of str) { \nif (openingBrackets.includes(char)) { \nstack.push(char); \n} else if (closingBrackets.includes(char)) { \nconst lastOpeningBracket = stack.pop(); \nconst correspondingOpeningBracket = openingBrackets[closingBrackets.indexOf(char)]; \nif (lastOpeningBracket !== correspondingOpeningBracket) { \nreturn false; \n} \n} \n} \nreturn stack.length === 0; \n} \n\n// Приклади використання:\n\nconst code1 = 'function someFn() { console.log('Hello World!'); }'; \nconsole.log(checkBrackets(code1)); // Поверне true\n\nconst code2 = 'function someFn() { console.log('Hello World!'}'; \nconsole.log(checkBrackets(code2)); // Поверне false, брак закриваючої  дужки\n\nconst code3 = 'function someFn() { console.log['Hello World!'}'; \nconsole.log(checkBrackets(code2)); // Поверне false, брак закриваючої  дужки"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
                 "header": "Висновки",
                 "content": [{
                     "type": "text",
