@@ -32,7 +32,7 @@ function App() {
       </HeaderWrapper>
 
       <Flex
-          padding={'0px 25px'}
+          padding={'0px 30px'}
           columnGap={'30px'}
       >
         <Sidebar content={LABS[currLab]} />

@@ -5,11 +5,9 @@
         "photo_path": "/avatar.jpg"
     },
     "labs": {
-        "Лабораторна робота №1": [
-            {
+        "Лабораторна робота №1": [{
                 "header": "Опис предметного середовища",
-                "content": [
-                    {
+                "content": [{
                         "type": "text",
                         "data": "Онлайн шопінг зараз досить актуальна тема, тож веб-застосунок розроблений для тих, хто не хоче витрачати багато часу, щоб бігати по магазинах, але й бути у тренді. Веб-застосунок дозволятиме:  "
                     },
@@ -33,8 +31,7 @@
             },
             {
                 "header": "Тема, Мета, Місце розташування лаби №1",
-                "content": [
-                    {
+                "content": [{
                         "type": "text",
                         "data": "Тема: СТРУКТУРА HTML-ДОКУМЕНТА. ВИБІР ПРЕДМЕТНОЇ ГАЛУЗІ. РОБОТА З ПОСИЛАННЯМИ, ТАБЛИЦЯМИ, ЗОБРАЖЕННЯМИ, СПИСКАМИ в HTML-ДОКУМЕНТІ."
                     },
@@ -66,26 +63,23 @@
                         "type": "text",
                         "data": "МАКЕТ РЕЗЮМЕ : https://www.figma.com/file/bDfX6Gun1i97fCSxtG0trI/Resume-(Copy)?type=design&node-id=0%3A1&mode=design&t=M4bXPTnwiM7MSJjI-1"
                     }
-                    
+
                 ]
             },
             {
                 "header": "Структура",
-                "content": [
-                    {
-                        "type": "text",
-                        "data": ""
-                    }
-                ],
-                "subcontent": [
-                    {
+                "content": [{
+                    "type": "text",
+                    "data": ""
+                }],
+                "subcontent": [{
                         "header": "HTML-код Таблиць",
                         "content": [
-                            
+
                             {
                                 "type": "code",
                                 "data": "<div>\n  <table >\n    <tr>\n      <th>Дні тижня</th>\n      <th>Години роботи</th>\n    </tr>\n    <tr>\n      <td>ПН-ПТ</td>\n      <td>8.00-19.00</td>\n    </tr>\n    <tr>\n      <td>Cб</td>\n      <td>9.00-17.00</td>\n    </tr>\n    <tr>\n      <td>Нд</td>\n      <td>10.00-16.00</td>\n    </tr>\n    <tr>\n  </table>\n</div>"
-                                  
+
                             },
                             {
                                 "type": "text",
@@ -97,10 +91,10 @@
                             }
                         ]
                     },
-                     {
+                    {
                         "header": "HTML-код Форми",
                         "content": [
-                                    
+
                             {
                                 "type": "code",
                                 "data": "<form >\n  <input id='search' type='text' name='Search'>\n</form>"
@@ -118,11 +112,11 @@
                     {
                         "header": "HTML-код Зображення",
                         "content": [
-                                    
+
                             {
                                 "type": "code",
                                 "data": "<div>\n    <img class='photomain' src='img/foto1.png' alt='foto1' width='300px'>\n</div>\n<div>\n  <img class='photomain' src='img/foto2.png' alt='foto2' width='300px'>\n</div>\n<div>\n    <img class='photomain' src='img/foto3.png' alt='foto3' width='300px'>\n</div>\n<div>\n  <img class='photomain' src='img/foto4.png' alt='foto4' width='300px'>\n</div>"
-                                          
+
                             },
                             {
                                 "type": "text",
@@ -133,26 +127,22 @@
                                 "data": "/foto.jpg"
                             }
                         ]
-                     }
+                    }
 
                 ]
 
             },
             {
                 "header": "Висновки",
-                "content": [
-                    {
-                        "type": "text",
-                        "data": "В цій лабораторній роботі ми ознайомилися з GitHub, Figma та почали створювати власний проєкт. Опрацювали основні теги (таблиці, форми, списки) за допомогою самостійної роботи. Та примінили на практиці отримані знання у веб-застосунку."
-                    }
-                ]
+                "content": [{
+                    "type": "text",
+                    "data": "В цій лабораторній роботі ми ознайомилися з GitHub, Figma та почали створювати власний проєкт. Опрацювали основні теги (таблиці, форми, списки) за допомогою самостійної роботи. Та примінили на практиці отримані знання у веб-застосунку."
+                }]
             }
         ],
-        "Лабораторна робота №2": [
-            {
+        "Лабораторна робота №2": [{
                 "header": "Тема, Мета, Місце розташування лаби №2",
-                "content": [
-                    {
+                "content": [{
                         "type": "text",
                         "data": "Тема: КАСКАДНІ ТАБЛИЦІ СТИЛІВ. СЕЛЕКТОРИ .ІДЕНТИФІКАТОРИ. СТИЛЬОВЕ ОФОРМЛЕННЯ ТЕКСТОВИХ ЕЛЕМЕНТІВ В HTML-ДОКУМЕНТАХ."
                     },
@@ -163,8 +153,7 @@
                     {
                         "type": "text",
                         "data": "Місце розташування лаби №2:"
-                    }
-                    ,
+                    },
                     {
                         "type": "text",
                         "data": "РЕПОЗИТОРІЙ СР2: https://github.com/kovkat/sr2_web"
@@ -185,8 +174,7 @@
             },
             {
                 "header": "Cпособи підключення стилів",
-                "content": [
-                    {
+                "content": [{
                         "type": "text",
                         "data": "Зовнішня таблиця стилів (External)"
                     },
@@ -214,17 +202,14 @@
             },
             {
                 "header": "Селектори",
-                "content": [
-                    {
-                        "type": "text",
-                        "data": "Селектори - це те, що допомагає визначити певний HTML елемент і додати до нього стилі"
-                    }
-                ],
-                "subcontent": [
-                    {
+                "content": [{
+                    "type": "text",
+                    "data": "Селектори - це те, що допомагає визначити певний HTML елемент і додати до нього стилі"
+                }],
+                "subcontent": [{
                         "header": "Селектори тегу",
                         "content": [
-                            
+
                             {
                                 "type": "text",
                                 "data": "В якості селектора може виступати будь-який тег HTML, для якого визначаються правила форматування, такі як: колір, фон, розмір і т. д. Правила задаються в наступному вигляді."
@@ -236,20 +221,19 @@
                             {
                                 "type": "code",
                                 "data": "main h2 {\n    color: #333;\n}"
-                                  
-                            }
-                            ,
+
+                            },
                             {
                                 "type": "code",
                                 "data": "tr {\n   border-bottom: 1px solid #ddd;\n}"
-                                  
+
                             }
                         ]
                     },
                     {
                         "header": "Селектори класу",
                         "content": [
-                            
+
                             {
                                 "type": "text",
                                 "data": "Селектори класу дозволяють задавати стилі для одного чи більше елементів з однаковим ім'ям класу, що розміщені в різних місцях сторінки або на різних сторінках сайту. Щоб вибрати елементи з певним класом, напишіть символ точки (.), за яким слідує ім'я класу."
@@ -261,12 +245,12 @@
                             {
                                 "type": "code",
                                 "data": "<div>\n    <img class='photomain' src='img/foto1.png' alt='foto1' width='300px'>\n</div>\n<div>\n  <img class='photomain' src='img/foto2.png' alt='foto2' width='300px'>\n</div>\n<div>\n    <img class='photomain' src='img/foto3.png' alt='foto3' width='300px'>\n</div>\n<div>\n  <img class='photomain' src='img/foto4.png' alt='foto4' width='300px'>\n</div>"
-                                          
+
                             },
                             {
                                 "type": "code",
                                 "data": ".photomain {\n    width: 280px;\n     height: 280px;\n    border: 10px solid #ccc;\n    box-sizing: border-box;\n}"
-                                  
+
                             },
                             {
                                 "type": "img",
@@ -278,7 +262,7 @@
                     {
                         "header": "Селектори ідентифікаторів",
                         "content": [
-                            
+
                             {
                                 "type": "text",
                                 "data": "Ідентифікатор (id) елементу є унікальним на сторінці, тому селектор id використовується для вибору одного унікального елемента!"
@@ -290,27 +274,26 @@
                             {
                                 "type": "code",
                                 "data": "<img id='logo' src='img/logo.jpg' alt='logo'>"
-                                  
+
                             },
                             {
                                 "type": "code",
                                 "data": "#logo{\n   width: 100px ;\n   border-radius: 50px;\n}"
-                                  
+
                             },
                             {
                                 "type": "img",
                                 "data": "/logo.jpg"
-                                  
+
                             }
                         ]
                     }
 
                 ]
-            },  
+            },
             {
                 "header": "CSS: Шрифти Текст Таблиці Фон Контур Списки",
-                "content": [
-                    {
+                "content": [{
                         "type": "text",
                         "data": "Шрифти"
                     },
@@ -323,8 +306,8 @@
                         "data": "Результат:"
                     },
                     {
-                        "type":"img",
-                        "data":"/title.jpg"
+                        "type": "img",
+                        "data": "/title.jpg"
                     },
                     {
                         "type": "text",
@@ -333,7 +316,7 @@
                     {
                         "type": "code",
                         "data": "<div>\n  <table >\n    <tr>\n      <th>Дні тижня</th>\n      <th>Години роботи</th>\n    </tr>\n    <tr>\n      <td>ПН-ПТ</td>\n      <td>8.00-19.00</td>\n    </tr>\n    <tr>\n      <td>Cб</td>\n      <td>9.00-17.00</td>\n    </tr>\n    <tr>\n      <td>Нд</td>\n      <td>10.00-16.00</td>\n    </tr>\n    <tr>\n  </table>\n</div>"
-                          
+
                     },
                     {
                         "type": "code",
@@ -344,8 +327,8 @@
                         "data": "Результат:"
                     },
                     {
-                        "type":"img",
-                        "data":"/tabl.jpg"
+                        "type": "img",
+                        "data": "/tabl.jpg"
                     },
                     {
                         "type": "text",
@@ -354,12 +337,12 @@
                     {
                         "type": "code",
                         "data": "<div>\n    <img class='photomain' src='img/foto1.png' alt='foto1' width='300px'>\n</div>\n<div>\n  <img class='photomain' src='img/foto2.png' alt='foto2' width='300px'>\n</div>\n<div>\n    <img class='photomain' src='img/foto3.png' alt='foto3' width='300px'>\n</div>\n<div>\n  <img class='photomain' src='img/foto4.png' alt='foto4' width='300px'>\n</div>"
-                                  
+
                     },
                     {
                         "type": "code",
                         "data": ".photomain {\n    width: 280px;\n     height: 280px;\n    border: 10px solid #ccc;\n    box-sizing: border-box;\n}"
-                          
+
                     },
                     {
                         "type": "text",
@@ -380,34 +363,30 @@
                     {
                         "type": "code",
                         "data": "<div>\n                <p>Для оформлення замовлення потрібно зробити такі кроки:</p>\n                <ol>\n                    <li>Додати до кошику ті пари взуття, які сподобалися найбільше</li>\n                    <li>Натинути на кошик в панелі навігації</li>\n                    <li>Оформити замовлення та вибрати спосіб оплати</li>\n                </ol>\n            </div>"
-                                  
+
                     },
                     {
                         "type": "text",
                         "data": "Результат:"
                     },
                     {
-                        "type":"img",
-                        "data":"/spis.jpg"
+                        "type": "img",
+                        "data": "/spis.jpg"
                     }
-                    
+
                 ]
-            },     
+            },
             {
                 "header": "Висновки до ЛР2",
-                "content": [
-                    {
-                        "type": "text",
-                        "data": "В цій лабораторній роботі ми ознайомилися з CSS. Практикувалися зі стилями у самостійній роботі , додавали фон , межі , поля, кольори , контур. Всі ці знання примінили на проєктах, які почали робити на першій лабораторній роботі."
-                    }
-                ]
+                "content": [{
+                    "type": "text",
+                    "data": "В цій лабораторній роботі ми ознайомилися з CSS. Практикувалися зі стилями у самостійній роботі , додавали фон , межі , поля, кольори , контур. Всі ці знання примінили на проєктах, які почали робити на першій лабораторній роботі."
+                }]
             }
         ],
-        "Лабораторна робота №3": [
-            {
+        "Лабораторна робота №3": [{
                 "header": "Тема, Мета, Місце розташування лаби №3",
-                "content": [
-                    {
+                "content": [{
                         "type": "text",
                         "data": "Тема: ВЕРСТКА HTML-ДОКУМЕНТУ. БЛОКОВА ВЕРСТКА. ВЕРСТКА ЗАСОБАМИ CSS та FLEXBOX."
                     },
@@ -418,8 +397,7 @@
                     {
                         "type": "text",
                         "data": "Місце розташування лаби №3:"
-                    }
-                    ,
+                    },
                     {
                         "type": "text",
                         "data": "РЕПОЗИТОРІЙ СР3: https://github.com/kovkat/sr3_web"
@@ -438,11 +416,10 @@
                     }
 
                 ]
-            },     
+            },
             {
                 "header": "Завдання 1. Зовнійшній вигляд макету. Код макету",
-                "content": [
-                    {
+                "content": [{
                         "type": "text",
                         "data": "Спочатку для наглядності я створила наглядний макет:"
                     },
@@ -475,121 +452,118 @@
                         "data": "/maket3.jpg"
                     },
                     {
-                        "type":"code",
-                        "data":".cat_item{\n    width: cal(100%/3 );\n    padding: 0 35px;\n    margin-bottom: 90px;\n    position: relative;\n}\nfooter {\n    width: 100%;\n}"
+                        "type": "code",
+                        "data": ".cat_item{\n    width: cal(100%/3 );\n    padding: 0 35px;\n    margin-bottom: 90px;\n    position: relative;\n}\nfooter {\n    width: 100%;\n}"
                     }
                 ]
             },
             {
                 "header": "Завдання 2",
-                "content": [
-                    {
-                        "type": "text",
-                        "data": "Ми досліджували різні макети:"
-                    }
-                ],
-                "subcontent": [
-                    {
+                "content": [{
+                    "type": "text",
+                    "data": "Ми досліджували різні макети:"
+                }],
+                "subcontent": [{
                         "header": "Фіксована таблична верстка",
                         "content": [
-                            
+
                             {
                                 "type": "text",
                                 "data": "Створимо 4 окремі веб=сторінки. На першій з них зробимо розмітку за допомогою фіксованої табличної верстки. Наша веб-сторінка матиме наступний вигляд.Такий варіант має на увазі, що всі елементи веб-сторінки мають фіксовані розміри незалежно від діагоналі монітора і дозволу екрану."
                             },
                             {
-                                "type":"code",
-                                "data":"<table cellpadding='0' cellspacing='0' width='1265' align='center' >\n        <tr >\n            <td colspan='4' class='header'></td>\n            <div  class='part_header'>Завдання2.1<div>\n        </tr>\n        <tr>\n            <td>\n                <div class='center_part_2'></div>\n            </td>\n            <td>\n               <div class='center_part_3' ></div>\n            </td>\n            <td>\n                <div class='center_part_4' ></div>\n            </td>\n            <td>\n                <div class='center_part_5' ></div>\n           </td>\n        </tr>\n        <tr>\n            <td colspan='4' class='footer'></td>\n        </tr>\n    </table>"
+                                "type": "code",
+                                "data": "<table cellpadding='0' cellspacing='0' width='1265' align='center' >\n        <tr >\n            <td colspan='4' class='header'></td>\n            <div  class='part_header'>Завдання2.1<div>\n        </tr>\n        <tr>\n            <td>\n                <div class='center_part_2'></div>\n            </td>\n            <td>\n               <div class='center_part_3' ></div>\n            </td>\n            <td>\n                <div class='center_part_4' ></div>\n            </td>\n            <td>\n                <div class='center_part_5' ></div>\n           </td>\n        </tr>\n        <tr>\n            <td colspan='4' class='footer'></td>\n        </tr>\n    </table>"
                             },
                             {
-                                "type":"code",
-                                "data":".header{\n    width: 100%;\n    height: 60px;\n    background-color: rgb(255, 187, 0);\n   padding: 20px;\n    border: 1px solid black;\n}\n.center_part_2{\n    width: 300px;\n    height: 460px;\n    background-color: red;\n   border: 1px solid black;\n    float: left;\n}\n.center_part_3{\n    width: 300px;\n    height: 460px;\n    background-color: blue;\n    border: 1px solid black;\n    margin-left: 10px;\n}\n.center_part_4{\n    width: 300px;\n    height: 460px;\n    background-color: white;\n    border: 1px solid black;\n    margin-left: 10px;\n}\n.center_part_5{\n    width: 300px;\n    height: 460px;\n    background-color: darkred;\n    border: 1px solid black;\n   float: right;\n}\n.footer{\n    width: 100%;\n    height: 60px;\n    background-color: rgb(255, 187, 0);\n    padding: 20px;\n    border: 1px solid black;\n}\n.part_header{\n    width: 160px;\n    height: 35px;\n    background-color: white;\n    position: absolute;\n    margin: 35px;\n    font-size: 30px;\n    border: 1px solid black;\n}"
+                                "type": "code",
+                                "data": ".header{\n    width: 100%;\n    height: 60px;\n    background-color: rgb(255, 187, 0);\n   padding: 20px;\n    border: 1px solid black;\n}\n.center_part_2{\n    width: 300px;\n    height: 460px;\n    background-color: red;\n   border: 1px solid black;\n    float: left;\n}\n.center_part_3{\n    width: 300px;\n    height: 460px;\n    background-color: blue;\n    border: 1px solid black;\n    margin-left: 10px;\n}\n.center_part_4{\n    width: 300px;\n    height: 460px;\n    background-color: white;\n    border: 1px solid black;\n    margin-left: 10px;\n}\n.center_part_5{\n    width: 300px;\n    height: 460px;\n    background-color: darkred;\n    border: 1px solid black;\n   float: right;\n}\n.footer{\n    width: 100%;\n    height: 60px;\n    background-color: rgb(255, 187, 0);\n    padding: 20px;\n    border: 1px solid black;\n}\n.part_header{\n    width: 160px;\n    height: 35px;\n    background-color: white;\n    position: absolute;\n    margin: 35px;\n    font-size: 30px;\n    border: 1px solid black;\n}"
                             },
                             {
-                                "type":"img",
-                                "data":"/t_2_1.png"
+                                "type": "img",
+                                "data": "/t_2_1.png"
                             },
                             {
-                                "type":"img",
-                                "data":"/t_2_2.png"
+                                "type": "img",
+                                "data": "/t_2_2.png"
                             }
                         ]
                     },
                     {
                         "header": "Гумова таблична верстка",
                         "content": [
-                            
+
                             {
                                 "type": "text",
                                 "data": "На другій веб-сторінці зробимо розмітку за допомогою гумової табличної верстки.«Гумова» верстка сайту дозволяє змінювати розміри елементів сторінки, підлаштовуючись під різні розміри й дозволи моніторів. Наша веб-сторінка матиме наступний вигляд."
                             },
                             {
-                                "type":"code",
-                                "data":"<table cellpadding='0' cellspacing='0' width='1265' align='center' >\n        <tr >\n            <td colspan='4' class='header'></td>\n            <div  class='part_header'>Завдання2.2<div>\n        </tr>\n        <tr>\n            <td>\n                <div class='center_part_2'></div>\n            </td>\n            <td>\n               <div class='center_part_3' ></div>\n            </td>\n            <td>\n                <div class='center_part_4' ></div>\n            </td>\n            <td>\n                <div class='center_part_5' ></div>\n           </td>\n        </tr>\n        <tr>\n            <td colspan='4' class='footer'></td>\n        </tr>\n    </table>"
+                                "type": "code",
+                                "data": "<table cellpadding='0' cellspacing='0' width='1265' align='center' >\n        <tr >\n            <td colspan='4' class='header'></td>\n            <div  class='part_header'>Завдання2.2<div>\n        </tr>\n        <tr>\n            <td>\n                <div class='center_part_2'></div>\n            </td>\n            <td>\n               <div class='center_part_3' ></div>\n            </td>\n            <td>\n                <div class='center_part_4' ></div>\n            </td>\n            <td>\n                <div class='center_part_5' ></div>\n           </td>\n        </tr>\n        <tr>\n            <td colspan='4' class='footer'></td>\n        </tr>\n    </table>"
                             },
                             {
-                                "type":"code",
-                                "data":"header{\n    width: 100%;\n    height: 60px;\n    background-color: rgb(255, 187, 0);\n    padding: 20px;\n    border: 1px solid black;\n}\n.main_part{\n    display: flex;\n    width: 100%;\n}\n.footer{\n    width: 100%;\n    height: 60px;\n    background-color: rgb(255, 187, 0);\n    padding: 20px;\n    border: 1px solid black;\n}"
+                                "type": "code",
+                                "data": "header{\n    width: 100%;\n    height: 60px;\n    background-color: rgb(255, 187, 0);\n    padding: 20px;\n    border: 1px solid black;\n}\n.main_part{\n    display: flex;\n    width: 100%;\n}\n.footer{\n    width: 100%;\n    height: 60px;\n    background-color: rgb(255, 187, 0);\n    padding: 20px;\n    border: 1px solid black;\n}"
                             },
                             {
-                                "type":"img",
-                                "data":"/t_2_3.png"
+                                "type": "img",
+                                "data": "/t_2_3.png"
                             },
                             {
-                                "type":"img",
-                                "data":"/t_2_4.png"
+                                "type": "img",
+                                "data": "/t_2_4.png"
                             }
                         ]
                     },
                     {
                         "header": "Фіксована блочна верстка",
                         "content": [
-                            
+
                             {
                                 "type": "text",
                                 "data": "На третій веб-сторінці зробимо розмітку за допомогою фіксованої блочної верстки. Наша веб-сторінка матиме наступний вигляд."
                             },
                             {
-                                "type":"code",
-                                "data":"<header>\n        <div  class='part_header'>Завдання2.2<div>\n    </header>\n    <div class='main_part'>\n        <div class='center'>\n            <div class='center_part_2'></div>\n        </div>\n        <div class='center'>\n            <div class='center_part_3'></div>\n        </div>\n        <div class='center'>\n            <div class='center_part_4'></div>\n        </div>\n        <div class='center'>\n            <div class='center_part_5'></div>\n        </div>\n    </div>\n    <div class='footer'>\n</div>"
+                                "type": "code",
+                                "data": "<header>\n        <div  class='part_header'>Завдання2.2<div>\n    </header>\n    <div class='main_part'>\n        <div class='center'>\n            <div class='center_part_2'></div>\n        </div>\n        <div class='center'>\n            <div class='center_part_3'></div>\n        </div>\n        <div class='center'>\n            <div class='center_part_4'></div>\n        </div>\n        <div class='center'>\n            <div class='center_part_5'></div>\n        </div>\n    </div>\n    <div class='footer'>\n</div>"
                             },
                             {
-                                "type":"code",
-                                "data":".header{\n    width: 100%;\n    height: 60px;\n    background-color: rgb(255, 187, 0);\n   padding: 20px;\n    border: 1px solid black;\n}\n.center_part_2{\n    width: 300px;\n    height: 460px;\n    background-color: red;\n   border: 1px solid black;\n    float: left;\n}\n.center_part_3{\n    width: 300px;\n    height: 460px;\n    background-color: blue;\n    border: 1px solid black;\n    margin-left: 10px;\n}\n.center_part_4{\n    width: 300px;\n    height: 460px;\n    background-color: white;\n    border: 1px solid black;\n    margin-left: 10px;\n}\n.center_part_5{\n    width: 300px;\n    height: 460px;\n    background-color: darkred;\n    border: 1px solid black;\n   float: right;\n}\n.footer{\n    width: 100%;\n    height: 60px;\n    background-color: rgb(255, 187, 0);\n    padding: 20px;\n    border: 1px solid black;\n}\n.part_header{\n    width: 160px;\n    height: 35px;\n    background-color: white;\n    position: absolute;\n    margin: 35px;\n    font-size: 30px;\n    border: 1px solid black;\n}"
+                                "type": "code",
+                                "data": ".header{\n    width: 100%;\n    height: 60px;\n    background-color: rgb(255, 187, 0);\n   padding: 20px;\n    border: 1px solid black;\n}\n.center_part_2{\n    width: 300px;\n    height: 460px;\n    background-color: red;\n   border: 1px solid black;\n    float: left;\n}\n.center_part_3{\n    width: 300px;\n    height: 460px;\n    background-color: blue;\n    border: 1px solid black;\n    margin-left: 10px;\n}\n.center_part_4{\n    width: 300px;\n    height: 460px;\n    background-color: white;\n    border: 1px solid black;\n    margin-left: 10px;\n}\n.center_part_5{\n    width: 300px;\n    height: 460px;\n    background-color: darkred;\n    border: 1px solid black;\n   float: right;\n}\n.footer{\n    width: 100%;\n    height: 60px;\n    background-color: rgb(255, 187, 0);\n    padding: 20px;\n    border: 1px solid black;\n}\n.part_header{\n    width: 160px;\n    height: 35px;\n    background-color: white;\n    position: absolute;\n    margin: 35px;\n    font-size: 30px;\n    border: 1px solid black;\n}"
                             },
                             {
-                                "type":"img",
-                                "data":"/t_2_5.png"
+                                "type": "img",
+                                "data": "/t_2_5.png"
                             },
                             {
-                                "type":"img",
-                                "data":"/t_2_6.png"
+                                "type": "img",
+                                "data": "/t_2_6.png"
                             }
                         ]
                     },
                     {
                         "header": "Гумова блочна верстка",
                         "content": [
-                            
+
                             {
                                 "type": "text",
                                 "data": "На останній веб-сторінці зробимо розмітку за допомогою гумової блочної верстки. Наша веб-сторінка матиме наступний вигляд"
                             },
                             {
-                                "type":"code",
-                                "data":"<header>\n        <div  class='part_header'>Завдання2.2<div>\n    </header>\n    <div class='main_part'>\n        <div class='center'>\n            <div class='center_part_2'></div>\n        </div>\n        <div class='center'>\n            <div class='center_part_3'></div>\n        </div>\n        <div class='center'>\n            <div class='center_part_4'></div>\n        </div>\n        <div class='center'>\n            <div class='center_part_5'></div>\n        </div>\n    </div>\n    <div class='footer'>\n</div>"
+                                "type": "code",
+                                "data": "<header>\n        <div  class='part_header'>Завдання2.2<div>\n    </header>\n    <div class='main_part'>\n        <div class='center'>\n            <div class='center_part_2'></div>\n        </div>\n        <div class='center'>\n            <div class='center_part_3'></div>\n        </div>\n        <div class='center'>\n            <div class='center_part_4'></div>\n        </div>\n        <div class='center'>\n            <div class='center_part_5'></div>\n        </div>\n    </div>\n    <div class='footer'>\n</div>"
                             },
                             {
-                                "type":"code",
-                                "data":"header{\n    width: 100%;\n    height: 60px;\n    background-color: rgb(255, 187, 0);\n    padding: 20px;\n    border: 1px solid black;\n}\n.main_part{\n    display: flex;\n    width: 100%;\n}\n.footer{\n    width: 100%;\n    height: 60px;\n    background-color: rgb(255, 187, 0);\n    padding: 20px;\n    border: 1px solid black;\n}"
+                                "type": "code",
+                                "data": "header{\n    width: 100%;\n    height: 60px;\n    background-color: rgb(255, 187, 0);\n    padding: 20px;\n    border: 1px solid black;\n}\n.main_part{\n    display: flex;\n    width: 100%;\n}\n.footer{\n    width: 100%;\n    height: 60px;\n    background-color: rgb(255, 187, 0);\n    padding: 20px;\n    border: 1px solid black;\n}"
                             },
                             {
-                                "type":"img",
-                                "data":"/t_2_7.png"
+                                "type": "img",
+                                "data": "/t_2_7.png"
                             },
                             {
-                                "type":"img",
-                                "data":"/t_2_8.png"
+                                "type": "img",
+                                "data": "/t_2_8.png"
                             }
                         ]
                     }
@@ -597,192 +571,184 @@
             },
             {
                 "header": "Завдання 3",
-                "content": [
-                    {
+                "content": [{
                         "type": "text",
                         "data": "Потрібно було відтрворити потрібний макет за варіантом:"
                     },
                     {
-                        "type":"img",
-                        "data":"/task.png"
+                        "type": "img",
+                        "data": "/task.png"
                     }
                 ],
-                "subcontent": [
-                    {
+                "subcontent": [{
                         "header": "Зовнішній вигляд сторінки",
                         "content": [
-                            
+
                             {
                                 "type": "text",
                                 "data": "В результаті отримали таку сторінку"
                             },
                             {
-                                "type":"img",
-                                "data":"/task_3.png"
+                                "type": "img",
+                                "data": "/task_3.png"
                             }
                         ]
                     },
                     {
                         "header": "HTML-код",
                         "content": [
-                            
+
                             {
                                 "type": "code",
                                 "data": "<body>\n    <header>\n        <div class=‘text_header’>ЩО ВИ ОПАНУЄТЕ?</div>\n    </header>\n    <div class=‘icons’>\n        <div class=part>\n            <img class=icon src=img/html.png alt= >\n            <div class=icon_text>HTML/CSS</div>\n        </div>\n        <div class=part>\n            <img class=icon src=img/java.png alt= >\n            <div class=icon_text>JAVASCRIPT</div>\n        </div>\n        <div class=part>\n            <img class=icon src=img/react1.png alt= >\n            <div class=icon_text>REACT</div>\n        </div>\n        <div class=part>\n            <img class=icon src=img/react.png alt=‘‘ >\n            <div class=icon_text>REACT</div>\n        </div>\n        <div class=part>\n            <img class=icon src=‘img/ts.png’ alt=‘‘ >\n            <div class=‘icon_text’>TYPESCRIPT</div>\n        </div>\n        <div class=‘part’>\n            <img class=‘icon’ src=‘img/an.png’ alt=‘‘ >\n            <div class=‘icon_text’>ANGULAR</div>\n        </div>\n        <div class=‘part’>\n            <img class=‘icon’ src=‘img/gh.png’ alt=‘‘ >\n           <div class=‘icon_text’>GITHUB</div>\n        </div>\n        <div class=‘part’ id=‘gh’>\n            <img class=‘icon’ src=‘img/gh1.png’ alt=‘‘ >\n            <div class=‘icon_text’>GITHUB</div>\n        </div>\n    </div>\n    <div class=‘part1’>\n        <img class=‘im_part1’ src=‘img/p1.png’ alt=‘‘>\n        <div class=‘text_part1’>\n            <div class=‘p1_h1’>МИ ГАРАНТУЄМО НАШИМ ВИПУСКНИКАМ ПРАЦЕВЛАШТУВАННЯ</div>\n            <div class=‘p1_h2’>В НЕЗАЛЕЖНОСТІ ВІД ВІКУ</div>\n            <div class=‘maintext’>\n                <div class=‘part_maintext’>\n                    <img class=‘im_mt’ src=‘img/gal.png’ alt=‘‘>\n                    <div class=‘p1_mt’\n                        <div class=‘p1_mt_h1’>НАВІТЬ В ЗРІЛОМУ ВІЦІ</div>\n                       <div class=‘s_p1’>В Україні поширений міф про те,що тільки молоді люди можуть освоїти ІТ-напрямок. Але максимальний вік нашого студента доходить до 63 років.</div>\n                    </div>\n                </div>\n                <div class=‘part_maintext’>\n                    <img class=‘im_mt’ src=‘img/gal.png’ alt=‘‘>\n                    <div class=‘p1_mt’>\n                        <div class=‘p1_mt_h1’>НАВІТЬ БЕЗ ПРОФІЛЬНОЇ ОСВІТИ ТА НАВИЧОК</div>\n                        <div class=‘s_p1’>70% наших випускників вже мають освіту, не пов'язану з програмуванням.</div>\n                    </div>\n                </div>\n                <div class=‘part_maintext’>\n                    <img class=‘im_mt’ src=‘img/gal.png’ alt=‘‘>\n                    <div class=‘p1_mt’>\n                        <div class=‘p1_mt_h1’>НАВІТЬ БЕЗ ЗНАННЯ АНГЛІЙСЬКОЇ</div>\n                        <div class=‘s_p1’>Адже в нашому курсі вже включене знання англійської мови.</div>\n                    </div>\n                </div>\n                <div class=‘part_maintext’>\n                    <img class=‘im_mt’ src=‘img/gal.png’ alt=‘‘>\n                    <div class=‘p1_mt’>\n                        <div class=‘p1_mt_h1’>НАВІТЬ БЕЗ ЗНАННЬ ПРОГРАМУВАННЯ</div>\n                        <div class=‘s_p1’>Більшість наших студентів не знайомі з програмуванням , та починають свій шлях з нуля.</div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div class=‘part2’>\n        <div class=‘p2_h1’>КУРС ПРОГРАМУВАННЯ</div>\n        <div class=‘p2_h2’>JAVA З ПРАЦЕВЛАШТУВАННЯМ:</div>\n        <div class=‘p2’>\n            <img class=‘im_part2’ src=‘img/p2.png’ alt=‘‘>\n            <div class=‘p2_maintext’>\n               <div class=‘p2_part’>\n                   <img class=‘im_mt_p2’ src=‘img/part2.png’ alt=‘‘>\n                    <div class=‘p2_text’>\n                        <div class=‘p2_text_h1’>СТАЖУВАННЯ В ІТ-КОМПАНІЇ</div>\n                       <div class=‘p2_text_h2’>Покажи себе на курсі і ще до закінчення ми відправимо тебе на стажування в ІТ-компанію.</div>\n                    </div>\n                </div>/n                <div class=‘p2_part’>\n                  <img class=‘im_mt_p2’ src=‘img/part2.png’ alt=‘‘>\n                   <div class=‘p2_text’>\n                        <div class=‘p2_text_h1’>ТРИ ВИПУСКНИХ ПРОЄКТИ</div>\n                        <div class=‘p2_text_h2’>Наприкінці курсу ти будеш мати три проєкти, з якими легко працевлаштуєшся.</div>\n                    </div>\n                </div>\n                <div class=‘p2_part’>\n                    <img class=‘im_mt_p2’ src=‘img/part2.png’ alt=‘‘>\n                    <div class=‘p2_text’>\n                      <div class=‘p2_text_h1’>ІНТЕНСИВНІСТЬ</div>\n                      <div class=‘p2_text_h2’>На відмінну від інших наші студенти вчаться 6 разів на тиждень в продовж всього терміну. Саме тому вони краще за випускників всіх інших шкіл та легко працевлаштовуються.</div>\n                   </div>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div class=‘footer’>\n        <div Class=‘line’>2022</div>\n        <img class =‘f_im’ src=‘img/fb.png’ alt=‘‘>\n        <img class =‘f_im’ src=‘img/vk.png’ alt=‘‘>\n        <img class =‘f_im’ src=‘img/yt.png’ alt=‘‘>\n        <img class =‘f_im’ src=‘img/tg.png’ alt=‘‘>\n        <img class =‘f_im’ src=‘img/inst.png’ alt=‘‘>\n    </div>\n</body>"
-                            }    
+                            }
                         ]
                     },
                     {
                         "header": "CSS-код",
                         "content": [
-                            
+
                             {
-                                "type":"code",
-                                "data":"body{\n    margin: 0px;\n    background-color: white;\n}\nheader{\n    background-color: rgb(48, 48, 48) ;\n    text-align: center;\n    justify-content: center;\n}\n.text_header{\n    color: white;\n    font-weight: bold;\n    font-size: 20px;\n}\n.icons{\n    display: flex;\n    margin-top:10px;\n    margin-bottom: 15px;\n}\n.part{\n    position: relative;\n    width: 12%;\n    background-color: rgb(48, 48, 48) ;\n    margin-right: 10px;\n    text-align: center;\n}\n.icon{\n    padding: 5px;\n    height: 90px;\nwidth: 90px; \nmargin: auto; }\n.icon_text{ \npadding-bottom: 5px; \ncolor: white; \ntext-align: center; \nfont-size: 10px; }\n.part1{ \ndisplay: flex; \nbackground-color: rgb(48, 48, 48) ; }\n.im_part1{ \nwidth: 350px; \nheight: 350px; \nfloat:left; }\n.p1_h1{ \npadding-top: 10px; \npadding-bottom: 10px; \ncolor: white; \ntext-align: center; \nfont-size: 20px; \nfont-weight: bold; }\n.p1_h2{ \npadding-bottom: 10px; \ncolor: rgb(57, 154, 239); \nfont-size: 25px; \nfont-weight: bold; }\n.im_mt{ \nfloat: left; \nwidth: 30px; \nheight: 30px; }\n.maintext{ \ndisplay: flex; \nflex-wrap: wrap; }\n.part_maintext{ \nmargin-top:25px; \nmargin-bottom: 15px; \nwidth: 50%; \ndisplay: flex; }\n.p1_mt_h1{ \ncolor: rgb(148, 95, 53); \npadding-bottom: 5px; }\n.s_p1{ \ncolor:white; }\n.im_part2{ \nwidth: 350px; \nheight: 350px; \nfloat:left; }\n.p2_h1{ \ntext-align: center; \ncolor: rgb(253, 152, 72); \nfont-weight: bold; \npadding-top: 10px; }\n.p2_h2{ \ntext-align: center; \nfont-weight: bold; \nfont-size: 30px; }\n.p2_maintext{ \nfloat: right; \npadding-left: 400px; }\n.p2_part{ \ndisplay:flex; \nmargin: 40px; }\n.p2_text_h2{ \nfont-size: larger; \nfont-weight: bold; }\n.p2_text_h2{ \nopacity: 0.65; \nfont-size: smaller; }\n.p2{ \ndisplay: flex; }\n.im_mt_p2{ \nfloat: left; \nwidth: 30px; \nheight: 30px; }\n#gh{ \nmargin-right:0 ; }\n.footer{ \nmargin: 10px; \ndisplay: flex; \nwidth: 100%; }\n.line{ \nbackground-color: black; \nwidth: 80%; \nheight: 30px; \ncolor: white; }\n.f_im{ \nwidth: 30px ; \nheight: 30px; \nmargin-left: 10px; }\n"
-                            }   
+                                "type": "code",
+                                "data": "body{\n    margin: 0px;\n    background-color: white;\n}\nheader{\n    background-color: rgb(48, 48, 48) ;\n    text-align: center;\n    justify-content: center;\n}\n.text_header{\n    color: white;\n    font-weight: bold;\n    font-size: 20px;\n}\n.icons{\n    display: flex;\n    margin-top:10px;\n    margin-bottom: 15px;\n}\n.part{\n    position: relative;\n    width: 12%;\n    background-color: rgb(48, 48, 48) ;\n    margin-right: 10px;\n    text-align: center;\n}\n.icon{\n    padding: 5px;\n    height: 90px;\nwidth: 90px; \nmargin: auto; }\n.icon_text{ \npadding-bottom: 5px; \ncolor: white; \ntext-align: center; \nfont-size: 10px; }\n.part1{ \ndisplay: flex; \nbackground-color: rgb(48, 48, 48) ; }\n.im_part1{ \nwidth: 350px; \nheight: 350px; \nfloat:left; }\n.p1_h1{ \npadding-top: 10px; \npadding-bottom: 10px; \ncolor: white; \ntext-align: center; \nfont-size: 20px; \nfont-weight: bold; }\n.p1_h2{ \npadding-bottom: 10px; \ncolor: rgb(57, 154, 239); \nfont-size: 25px; \nfont-weight: bold; }\n.im_mt{ \nfloat: left; \nwidth: 30px; \nheight: 30px; }\n.maintext{ \ndisplay: flex; \nflex-wrap: wrap; }\n.part_maintext{ \nmargin-top:25px; \nmargin-bottom: 15px; \nwidth: 50%; \ndisplay: flex; }\n.p1_mt_h1{ \ncolor: rgb(148, 95, 53); \npadding-bottom: 5px; }\n.s_p1{ \ncolor:white; }\n.im_part2{ \nwidth: 350px; \nheight: 350px; \nfloat:left; }\n.p2_h1{ \ntext-align: center; \ncolor: rgb(253, 152, 72); \nfont-weight: bold; \npadding-top: 10px; }\n.p2_h2{ \ntext-align: center; \nfont-weight: bold; \nfont-size: 30px; }\n.p2_maintext{ \nfloat: right; \npadding-left: 400px; }\n.p2_part{ \ndisplay:flex; \nmargin: 40px; }\n.p2_text_h2{ \nfont-size: larger; \nfont-weight: bold; }\n.p2_text_h2{ \nopacity: 0.65; \nfont-size: smaller; }\n.p2{ \ndisplay: flex; }\n.im_mt_p2{ \nfloat: left; \nwidth: 30px; \nheight: 30px; }\n#gh{ \nmargin-right:0 ; }\n.footer{ \nmargin: 10px; \ndisplay: flex; \nwidth: 100%; }\n.line{ \nbackground-color: black; \nwidth: 80%; \nheight: 30px; \ncolor: white; }\n.f_im{ \nwidth: 30px ; \nheight: 30px; \nmargin-left: 10px; }\n"
+                            }
                         ]
                     }
                 ]
             },
             {
                 "header": "Висновки до ЛР3",
-                "content": [
-                    {
-                        "type": "text",
-                        "data": "Під час виконання лабораторної роботи ми придбали практичні навички роботи верстки сторінок засобами CSS, верстки на основі плаваючих елементів,а також з’ясували переваги та недоліки типів макетів веб-сторінок. придбали практичні навички роботи верстки сторінок засобами CSS та FLEXBOX"
-                    }
-                ]
+                "content": [{
+                    "type": "text",
+                    "data": "Під час виконання лабораторної роботи ми придбали практичні навички роботи верстки сторінок засобами CSS, верстки на основі плаваючих елементів,а також з’ясували переваги та недоліки типів макетів веб-сторінок. придбали практичні навички роботи верстки сторінок засобами CSS та FLEXBOX"
+                }]
             }
         ],
-        "Лабораторна робота №4": [
-            {
+        "Лабораторна робота №4": [{
                 "header": "Тема, Мета, Місце розташування лаби №4",
-                "content": [
-                    {
+                "content": [{
                         "type": "text",
-                        "data":"Тема:  АДАПТИВНА ВЕРСТКА. МЕДІА-ЗАПИТИ. МЕТАТЕГ VIEWPORT. СТРАТЕГІЯ MOBILE FIRST. "
+                        "data": "Тема:  АДАПТИВНА ВЕРСТКА. МЕДІА-ЗАПИТИ. МЕТАТЕГ VIEWPORT. СТРАТЕГІЯ MOBILE FIRST. "
                     },
                     {
                         "type": "text",
-                        "data":"Мета: Адаптивна верстка. Медіа-запити. Медіа-типи. Медіа-функції.Метатег viewport. Інструменти розробника. Стратегія Mobile First. "
+                        "data": "Мета: Адаптивна верстка. Медіа-запити. Медіа-типи. Медіа-функції.Метатег viewport. Інструменти розробника. Стратегія Mobile First. "
                     },
                     {
-                        "type":"text",
-                        "data":"РЕПОЗИТОРІЙ ПРОЄКТ :  https://github.com/kovkat/web_project_4laba"
+                        "type": "text",
+                        "data": "РЕПОЗИТОРІЙ ПРОЄКТ :  https://github.com/kovkat/web_project_4laba"
                     }
                 ]
             },
             {
                 "header": "Завдання",
-                "content": [
-                    {
+                "content": [{
                         "type": "text",
                         "data": "Створення десктопної, планшетної та мобільної версій веб-сайту вимагає врахування різних аспектів, таких як розміри екрану, зручність взаємодії з користувачем та загальний дизайн. Нижче наведено загальний підхід до створення кожної версії:"
                     },
                     {
-                        "type":"text",
-                        "data":"Десктопна версія:"
+                        "type": "text",
+                        "data": "Десктопна версія:"
                     },
                     {
-                        "type":"text",
-                        "data":"- Розробка десктопної версії зазвичай починається з широкого дизайну, орієнтованого на великі екрани."
+                        "type": "text",
+                        "data": "- Розробка десктопної версії зазвичай починається з широкого дизайну, орієнтованого на великі екрани."
                     },
                     {
-                        "type":"text",
-                        "data":"- Використовуються широкі колонки, більше простору для зображень та тексту, складніша навігація тощо."
+                        "type": "text",
+                        "data": "- Використовуються широкі колонки, більше простору для зображень та тексту, складніша навігація тощо."
                     },
                     {
-                        "type":"text",
-                        "data":"Планшетна версія:"
+                        "type": "text",
+                        "data": "Планшетна версія:"
                     },
                     {
-                        "type":"text",
-                        "data":"- Для планшетної версії важливо забезпечити зручність перегляду контенту на екранах середнього розміру."
+                        "type": "text",
+                        "data": "- Для планшетної версії важливо забезпечити зручність перегляду контенту на екранах середнього розміру."
                     },
                     {
-                        "type":"text",
-                        "data":"- Зазвичай використовують адаптивний дизайн, який адаптується до різних розмірів екранів."
+                        "type": "text",
+                        "data": "- Зазвичай використовують адаптивний дизайн, який адаптується до різних розмірів екранів."
                     },
                     {
-                        "type":"text",
-                        "data":"- Можливі зміни у розміщенні елементів, зменшення розмірів зображень та шрифтів, спрощена навігація."
+                        "type": "text",
+                        "data": "- Можливі зміни у розміщенні елементів, зменшення розмірів зображень та шрифтів, спрощена навігація."
                     },
                     {
-                        "type":"text",
-                        "data":"Мобільна версія:"
-                    },{
-                        "type":"text",
-                        "data":"- Для мобільної версії важливо забезпечити оптимальний досвід користувача на пристроях з невеликими екранами"
+                        "type": "text",
+                        "data": "Мобільна версія:"
+                    }, {
+                        "type": "text",
+                        "data": "- Для мобільної версії важливо забезпечити оптимальний досвід користувача на пристроях з невеликими екранами"
                     },
                     {
-                        "type":"text",
-                        "data":"- Зазвичай використовуються стекові (Stacked) макети, де елементи розміщуються один під одним."
+                        "type": "text",
+                        "data": "- Зазвичай використовуються стекові (Stacked) макети, де елементи розміщуються один під одним."
                     },
                     {
-                        "type":"text",
-                        "data":"- Великий акцент робиться на простоту навігації та зручність взаємодії, зменшення величини кнопок, оптимізація шрифтів та зображень."
+                        "type": "text",
+                        "data": "- Великий акцент робиться на простоту навігації та зручність взаємодії, зменшення величини кнопок, оптимізація шрифтів та зображень."
                     }
                 ],
-                "subcontent": [
-                    {
+                "subcontent": [{
                         "header": "Десктопна версія",
                         "content": [
-                            
+
                             {
                                 "type": "text",
                                 "data": "Для цієї версії і розроблявся з самого початку застосунок, тому тут без мін:"
                             },
                             {
-                                "type":"img",
-                                "data":"/maket1.jpg"
+                                "type": "img",
+                                "data": "/maket1.jpg"
                             },
                             {
-                                "type":"img",
-                                "data":"/maket4.png"
+                                "type": "img",
+                                "data": "/maket4.png"
                             }
                         ]
                     },
                     {
                         "header": "Планшетна версія",
                         "content": [
-                            
+
                             {
                                 "type": "text",
                                 "data": "Я обрала точку у 1275px @media (max-width: 1275px)"
                             },
                             {
-                                "type":"code",
-                                "data":"\n@media (max-width: 1275px) {\n    \n.cat_item {\n        \nwidth: 50%;\n    }\n    \n.photomain{\n        \nwidth: 185px;\n        \nheight: 185px;\n        \nborder: 5px solid #ccc; \n        \nbox-sizing: border-box;\n    }\n    \n.nav_{\n        \nfont-size: 20px;\n    }\n    \n.title{\n        \nfont-size: 40px;\n    }\n    \n#search{\n        \nwidth: 100px;\n    }\n    \n.cat_item:nth-of-type(even)::before {\n        \ncontent: '';\n    }\n    \n.cat_item:nth-of-type(odd)::before {\n        \ncontent: none;\n    }\n    \n.category_item{\n        \nheight: 275px;\n    }\n    \n.communication_text{\n        \nfont-size: 13px;\n    }\n}\n\n@media (max-width: 800px) and (max-width: 1275px){\n    \n#logo{\n        \nwidth:50px;\n    }\n}\n "
+                                "type": "code",
+                                "data": "\n@media (max-width: 1275px) {\n    \n.cat_item {\n        \nwidth: 50%;\n    }\n    \n.photomain{\n        \nwidth: 185px;\n        \nheight: 185px;\n        \nborder: 5px solid #ccc; \n        \nbox-sizing: border-box;\n    }\n    \n.nav_{\n        \nfont-size: 20px;\n    }\n    \n.title{\n        \nfont-size: 40px;\n    }\n    \n#search{\n        \nwidth: 100px;\n    }\n    \n.cat_item:nth-of-type(even)::before {\n        \ncontent: '';\n    }\n    \n.cat_item:nth-of-type(odd)::before {\n        \ncontent: none;\n    }\n    \n.category_item{\n        \nheight: 275px;\n    }\n    \n.communication_text{\n        \nfont-size: 13px;\n    }\n}\n\n@media (max-width: 800px) and (max-width: 1275px){\n    \n#logo{\n        \nwidth:50px;\n    }\n}\n "
                             },
                             {
-                                "type":"img",
-                                "data":"/maket5.png"
+                                "type": "img",
+                                "data": "/maket5.png"
                             },
                             {
-                                "type":"img",
-                                "data":"/maket6.png"
+                                "type": "img",
+                                "data": "/maket6.png"
                             }
                         ]
                     },
                     {
                         "header": "Мобільна версія",
                         "content": [
-                            
+
                             {
                                 "type": "text",
                                 "data": "Я обрала точку у 800px @media (max-width: 800px)"
                             },
                             {
-                                "type":"code",
-                                "data":"\n@media (max-width: 800px) and (max-width: 1275px){\n    \n#logo{\n        \nwidth:50px;\n    }\n}\n\n@media (max-width: 800px) {\n    \n.cat_item {\n      \nwidth: 100%;\n      \nmargin-bottom: 50px;\n    }\n\n    \n\n    .nav_{\n        \nfont-size: 10px;\n        \npadding: 5px;\n    }\n    #search{\n        \nwidth: 90px;\n        \nheight: 25px;\n    }\n    #bask{\n        \nwidth: 30px;\n    }\n    .cat_item:nth-of-type(n)::before {\n      \ncontent: none;\n    }\n\n    .title{\n        \nfont-size: 35px;\n    }\n\n    #m_f{\n        \nheight: 200px;\n        \nwidth: 400px;\n    }\n    .photomain{\n        \nwidth: 122px;\n        \nheight: 122px;\n        \nborder: 3px solid #ccc; \n    box-sizing: border-box;\n    }\n    .image-container {\n        \ndisplay: flex;\n        \nflex-wrap: wrap;\n        \njustify-content: space-between;\n        \npadding: 5px;\n    }\n\n    .cat_product {\n      \nwidth: 350px;\n      \nmax-width: 100%;\n      \nmargin: 0 auto;\n      \nborder-bottom: 2px solid #f7f7f7;\n      \npadding-bottom: 50px;\n    }\n  \n    .cat_item:last-of-type {\n      \nmargin-bottom: 0;\n    }\n  \n    .cat_item:last-of-type .cat_product {\n      \nborder-bottom: 0;\n      \npadding-bottom: 0;\n    }\n\n    .category_item{\n        \nheight: 175px;\n    }\n    .category_name{\n        \nfont-size: 18px;\n    }\n    .communication_text{\n        \nfont-size: 7px;\n    }\n  }\n"
+                                "type": "code",
+                                "data": "\n@media (max-width: 800px) and (max-width: 1275px){\n    \n#logo{\n        \nwidth:50px;\n    }\n}\n\n@media (max-width: 800px) {\n    \n.cat_item {\n      \nwidth: 100%;\n      \nmargin-bottom: 50px;\n    }\n\n    \n\n    .nav_{\n        \nfont-size: 10px;\n        \npadding: 5px;\n    }\n    #search{\n        \nwidth: 90px;\n        \nheight: 25px;\n    }\n    #bask{\n        \nwidth: 30px;\n    }\n    .cat_item:nth-of-type(n)::before {\n      \ncontent: none;\n    }\n\n    .title{\n        \nfont-size: 35px;\n    }\n\n    #m_f{\n        \nheight: 200px;\n        \nwidth: 400px;\n    }\n    .photomain{\n        \nwidth: 122px;\n        \nheight: 122px;\n        \nborder: 3px solid #ccc; \n    box-sizing: border-box;\n    }\n    .image-container {\n        \ndisplay: flex;\n        \nflex-wrap: wrap;\n        \njustify-content: space-between;\n        \npadding: 5px;\n    }\n\n    .cat_product {\n      \nwidth: 350px;\n      \nmax-width: 100%;\n      \nmargin: 0 auto;\n      \nborder-bottom: 2px solid #f7f7f7;\n      \npadding-bottom: 50px;\n    }\n  \n    .cat_item:last-of-type {\n      \nmargin-bottom: 0;\n    }\n  \n    .cat_item:last-of-type .cat_product {\n      \nborder-bottom: 0;\n      \npadding-bottom: 0;\n    }\n\n    .category_item{\n        \nheight: 175px;\n    }\n    .category_name{\n        \nfont-size: 18px;\n    }\n    .communication_text{\n        \nfont-size: 7px;\n    }\n  }\n"
                             },
                             {
-                                "type":"img",
-                                "data":"/maket7.png"
+                                "type": "img",
+                                "data": "/maket7.png"
                             },
                             {
-                                "type":"img",
-                                "data":"/maket8.png"
+                                "type": "img",
+                                "data": "/maket8.png"
                             }
                         ]
                     }
@@ -790,31 +756,163 @@
             },
             {
                 "header": "Логічні оператори",
-                "content": [
-                    {
+                "content": [{
                         "type": "text",
                         "data": "Усі запити починаються з правила @media, після чого слідує умова, в якій використовуються типи носіїв, логічні оператори та медіа-функції.Логічні оператори, що застосовуються в медіа-запитах: and Логічне І, not Логічне НЕ."
                     },
                     {
-                        "type":"code",
-                        "data":"@media (max-width: 800px) and (max-width: 1275px){\n#logo{\nwidth:50px;\n}\n}"
+                        "type": "code",
+                        "data": "@media (max-width: 800px) and (max-width: 1275px){\n#logo{\nwidth:50px;\n}\n}"
                     }
                 ]
             },
             {
                 "header": "Висновки до ЛР4",
-                "content": [
-                    {
-                        "type": "text",
-                        "data": "Під час виконання лабораторної роботи ми придбали практичні навички роботи адапртивної верстки сторінок засобами CSS, створили десктопну, мобільну та для планшетів версію на основі вибраних нами брейкпоінтів."
-                    }
-                ]
+                "content": [{
+                    "type": "text",
+                    "data": "Під час виконання лабораторної роботи ми придбали практичні навички роботи адапртивної верстки сторінок засобами CSS, створили десктопну, мобільну та для планшетів версію на основі вибраних нами брейкпоінтів."
+                }]
             }
         ],
-        "Лабораторна робота №5": [],
+        "Лабораторна робота №5": [{
+                "header": "Постановка задачі лабораторної роботи №5",
+                "content": [{
+                        "type": "text",
+                        "data": "Тема до лабораторної 5: ФУНКЦІОНАЛЬНЕ ЗАСТОСУВАННЯ JAVASCRIPT У HTML-ДОКУМЕНТІ. ВИКОРИСТАННЯ МАСИВІВ У JS - СЦЕНАРІЯХ.РЕАЛІЗАЦІЯ ПРОГРАМ ЗАСОВАМИ МОВИ JAVASCRIPT "
+                    },
+                    {
+                        "type": "text",
+                        "data": "Тема до лабораторної 5.1: ОБ'ЄКТ. МЕТОДИ ОБ'ЄКТА. МАСИВ ОБ'ЄКТІВ. ДЕСТРУКТУРИЗАЦІЯ ОБ'ЄКТІВ. CALLBACK. СТРІЛОЧНІ ФУНКЦІЇ. СТРІЛОЧНІ ФУНКЦІЇ ЯК КОЛБЕКИ."
+                    },
+                    {
+                        "type": "text",
+                        "data": "Мета: придбати практичні навички роботи з масивами у js-сценаріях.  Реалізація програм засовами мови JAVASCRIPT. придбати практичні навички роботи з об'єктами. Методи об'єкта. Callback. Стрілочні функції. Стрілочні функції як колбеки.Реалізація програм засовами мови JAVASCRIPT "
+                    },
+                    {
+                        "type": "text",
+                        "data": "Місце розташування лаби №5:"
+                    },
+                    {
+                        "type": "text",
+                        "data": "РЕПОЗИТОРІЙ ПРОЄКТ: https://github.com/kovkat/laba5_web_project"
+                    },
+                    {
+                        "type": "text",
+                        "data": "РЕПОЗИТОРІЙ До інших завдань :  https://github.com/kovkat/laba5_web"
+                    }
+
+                ]
+            },
+            {
+                "header": "Способи функціонального застосування JavaScript",
+                "content": [{
+                    "type": "text",
+                    "data": ""
+                }],
+                "subcontent": [{
+                        "header": "Схема URL",
+                        "content": [{
+                                "type": "code",
+                                "data": "new URL(url, [base])\n  \nlet url1 = new URL('https://javascript.info/profile/admin');\nalert(url1); // https://javascript.info/profile/admin\n"
+                            },
+                            {
+                                "type": "text",
+                                "data": "Англійська абревіатура URL розшифровується як Uniform Resource Locator, що у перекладі українською означає «уніфікований покажчик ресурсу». Вперше URL став застосовуватися 1990 року. Слава його винаходу належить творцеві Всесвітньої павутини – Тіму Бернерсу-Лі."
+                            },
+                            {
+                                "type": "text",
+                                "data": "Спочатку УРЛ застосовувався для позначення розміщення файлів в Інтернеті, але зараз використовується для вказівки розташування майже всіх веб-ресурсів. URL може позначати шлях як до веб-сайту, так і до певного документа або зображення. Щоб перейти до потрібного сайту або файлу, користувач повинен написати в адресному рядку браузера відповідний УРЛ."
+                            },
+                            {
+                                "type": "text",
+                                "data": "На початку адреси завжди вказаний протокол (у деяких браузерах за замовчуванням він може бути прихований і стає видно при натисканні адресного рядка). Якщо ми переглядаємо веб-сторінку, це буде протокол передачі даних http або його форма https із підтримкою шифрування для встановлення безпечного з 'єднання."
+                            },
+                            {
+                                "type": "text",
+                                "data": "Після протоколу слід доменне ім'я сайту (хост) або в окремих випадках його IP-адреса. Також у деяких випадках URL-адреса може містити номер порту, наприклад, його можна побачити в мережевих програмах (виглядає це так: //example.com:8080).Потім вказується шлях до сторінки, що складається з каталогів і підкаталогів, який, у свою чергу, включає її назву. "
+                            }
+                        ]
+
+                    },
+                    {
+                        "header": "Обробник подій",
+                        "content": [{
+                                "type": "code",
+                                "data": "<елементподія='якийсь JavaScript код'>"
+                            },
+                            {
+                                "type": "text",
+                                "data": "Подією HTML може бути те, що робить браузер або користувач. Ось кілька прикладів подій HTML:  Веб - сторінка HTML завантажилася ; Змінено поле введення HTML; Натиснуто кнопку HTML. Часто, коли відбуваються події, ви можете щось зробити. JavaScript дозволяє виконувати код у разі виявлення подій. HTML дозволяє додавати атрибути обробника подій за допомогою коду JavaScript до елементів HTML. "
+                            }
+                        ]
+                    },
+                    {
+                        "header": "Підстановка (entity)",
+                        "content": [{
+                            "type": "text",
+                            "data": "Підстановка (entity) зустрічається на Web-сторінках досить рідко. Проте це досить потужний інструмент генерації HTML-сторінки на стороні браузера. Підстановки використовуються як значення атрибутів HTML-контейнерів. Наприклад, як значення за замовчуванням поля форми, що визначає домашню сторінку користувача, буде вказано URL поточної сторінки."
+                        }]
+                    },
+                    {
+                        "header": "Вставка (тег Script)",
+                        "content": [{
+                                "type": "code",
+                                "data": "<script>\ndocument.getElementById(' demo ').innerHTML = 'Мій перший JavaScript ';\n < /script > "
+                            },
+                            {
+                                "type": "text",
+                                "data": "Найпростіший спосіб вставити JS-код в HTML-сторінку - використовувати парний тег <script>. Він повідомляє браузеру, що весь його вміст потрібно інтерпретувати як скрипт, що виконується, а не як текст або HTML-код."
+                            }
+                        ]
+                    }
+                ]
+
+            }, {
+                "header": "Масиви (4 пункт)",
+                "content": [{
+                        "type": "text",
+                        "data": "Завдання : 1. Створити одновимірний масив,кількість елементів якого задана користувачем. Визначити максимальне та мінімальне значення серед елементів із парними та  непарними номерами.  2. Упорядкувати масив у порядку зменшення методом вибору.Надрукувати  вхідний та вихідний масив.ВВ "
+                    }, {
+                        "type": "code",
+                        "data": " <title>Завдання 1, 5 лаба, 5 варіант</title>\n</head>\n\n<body>\n    <div class='div_' > \n < p > < i > < b > 1. Створити одновимірний масив,кількість елементів якого задана користувачем.\n Визначити максимальне та мінімальне значення серед елементів із парними та\n непарними номерами.\n < br > < br > 2. Упорядкувати масив у порядку зменшення методом вибору.Надрукувати\n вхідний та вихідний масив.ВВ < br > < br > Застосувати функції < /i></b > \n < /p>\n    </div > \n < script src = '.. / task1 / script1.js ' > < /script>\n</body > \n\n < /html>"
+                    }, {
+                        "type": "code",
+                        "data": "let n = prompt('Введіть кількість елементів масиву:');\nconsole.log(n);\nlet arr = new Array();\nfunction our_array(Array, num) {\n    for (i = 0; i < num; i++) {\n        let a = Math.round(Math.random() * 100);\n        Array[i] = a;\n        document.write('<br>' + Array[i]);\n    }\n}\nfunction unpar_arr(Array) {\n    let num = Array.length;\n    let min = Array[0];\n    let max = Array[0];\n    for (i = 0; i < num; i += 2) {\n        if (Array[i] < min)\n            min = Array[i];\n        if (Array[i] > max)\n            max = Array[i];\n    }\n    document.write('<br>Найбільший елемент серед непарних чисел:' + max);\n    document.write('<br>Найменший елемент серед непарних чисел:' + min);\n}\nfunction par_arr(Array) {\n    let num = Array.length;\n    let min = Array[1];\n    let max = Array[1];\n    for (i = 1; i < num; i += 2) {\n        if (Array[i] < min)\n            min = Array[i];\n        if (Array[i] > max)\n            max = Array[i];\n    }\n    document.write('<br>Найбільший елемент серед парних чисел:' + max);\n    document.write('<br>Найменший елемент серед парних чисел:' + min);\n}\nfunction sort(Array) {\n    let num = Array.length;\n    for (i = 0; i < num - 1; i++) {\n        let max = i;\n        for (let j = i + 1; j < num; j++) {\n            if (Array[j] > Array[max]) max = j;\n        }\n        let t = Array[max];\n        Array[max] = Array[i];\n        Array[i] = t;\n    }\n    document.write('<br><br><i><b>Відсотований масив:</b></i><br>');\n    for (i = 0; i < num; i++) {\n        document.write('<br>' + Array[i]);\n    }\n}\nour_array(arr, n);\nunpar_arr(arr);\npar_arr(arr);\nsort(arr);                    "
+                    },
+                    {
+                        "type": "img",
+                        "data": "/t5_1.png"
+                    }
+                ]
+            }, {
+                "header": "Виконання 6 пункту",
+                "content": [{
+                        "type": "text",
+                        "data": "Завдання: Слайдшоу. Реалізувати можливість перегляду зображень за таймером, врахувати можливість налаштування розміру зображень, циклічність перегляду, а також часу між переключеннями. "
+                    }, {
+                        "type": "code",
+                        "data": "<body>\n    <h2>Слайдшоу</h2>\n\n    <div class='slideshow-container'>\n\n        <div class='mySlides fade'>\n            <img src='../task2/img/foto1.png' style='width:100% ;height:300px'>\n        </div>\n\n        <div class='mySlides fade'>\n            <img src='../task2/img/foto2.png' style='width:100%;height:300px'>\n        </div>\n\n        <div class='mySlides fade'>\n            <img src='../task2/img/foto3.png' style='width:100%;height:300px'>\n        </div>\n\n    </div>\n    <br>\n\n    <div style='text-align:center'>\n        <span class='dot'></span>\n        <span class='dot'></span>\n        <span class='dot'></span>\n    </div>\n    <script src='../task2/script2.js'></script>\n</body>                    "
+                    },
+                    {
+                        "type": "code",
+                        "data": "var slideIndex = 0;\nshowSlides();\n\nfunction showSlides() {\n    var i;\n    var slides = document.getElementsByClassName('mySlides');\n    var dots = document.getElementsByClassName('dot');\n    for (i = 0; i < slides.length; i++) {\n       slides[i].style.display = 'none';  \n    }\n    slideIndex++;\n    if (slideIndex > slides.length) {slideIndex = 1}    \n    for (i = 0; i < dots.length; i++) {\n        dots[i].className = dots[i].className.replace(' active', '');\n    }\n    slides[slideIndex-1].style.display = 'block';  \n    dots[slideIndex-1].className += ' active';\n    setTimeout(showSlides, 2000);\n}                        "
+                    },
+                    {
+                        "type": "img",
+                        "data": "/t5_2.png"
+                    }
+                ]
+            }, {
+                "header": "Висновки",
+                "content": [{
+                    "type": "text",
+                    "data": "В цій лабораторній ми придбати практичні навички роботи з масивами у js-сценаріях.  Реалізували програму засовами мови JAVASCRIPT. Також придбали практичні навички роботи з об'єктами, методами об'єкта, Callback, стрілочними функціями. "
+                }]
+            }
+        ],
         "Лабораторна робота №6": [],
         "Лабораторна робота №7": [],
         "Лабораторна робота №8": [],
         "Лабораторна робота №9": []
     }
-  }
+}
