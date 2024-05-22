@@ -1047,13 +1047,20 @@
                 "header": "Постановка задачі лабораторної роботи №6",
                 "content": [{
                         "type": "text",
-                        "data": "Тема до лабораторної 6: КЛАСИ. ОБ'ЄКТНА МОДЕЛЬ ДОКУМЕНТА (DOM). ПОДІЇ. ОБ'ЄКТ ПОДІЇ. ДЕЛЕГУВАННЯ ПОДІЙ. THROTTLE. МОДУЛЬНОСТЬ КОДУ "
+                        "data": "Тема до лабораторної 6: КЛАСИ. ОБ'ЄКТНА МОДЕЛЬ ДОКУМЕНТА (DOM). ПОДІЇ. ОБ'ЄКТ ПОДІЇ."
                     },
                     {
                         "type": "text",
-                        "data": "Мета: придбати практичні навички роботи з об'єктами. Методи об'єкта.. Callback. Стрілочні функції. Стрілочні функції як колбеки.Реалізація програм засовами мови JAVASCRIPT "
-                    },
-                    {
+                        "data": "ДЕЛЕГУВАННЯ ПОДІЙ. THROTTLE. МОДУЛЬНОСТЬ КОДУ "
+                    }, {
+                        "type": "text",
+                        "data": "Мета: придбати практичні навички роботи з об'єктами. Методи об'єкта.. Callback. Стрілочні функції.'"
+
+                    }, {
+                        "type": "text",
+                        "data": "Стрілочні функції як колбеки.Реалізація програм засовами мови JAVASCRIPT "
+
+                    }, {
                         "type": "text",
                         "data": "Місце розташування лаби №6:"
                     },
@@ -1073,7 +1080,10 @@
                         "header": "Завдання 1",
                         "content": [{
                                 "type": "text",
-                                "data": "У звітному HTML-документі створити html-розміту, яка складається з наступних елементів : текст, кнопка, поле введення  . Натискання на кнопку SHOW ME має виводити значення з поля введення у консолі."
+                                "data": "У звітному HTML-документі створити html-розміту, яка складається з наступних елементів : текст, кнопка, "
+                            }, {
+                                "type": "text",
+                                "data": "поле виведення. Натискання на кнопку SHOW ME має виводити значення з поля введення у консолі."
                             },
                             {
                                 "type": "img",
@@ -1089,7 +1099,16 @@
                         "header": "Завдання 3",
                         "content": [{
                                 "type": "text",
-                                "data": "У звітному HTML-документі створити html-розміту, яка складається з наступних елементів : текст, кнопка, інпут (поле введення ). Кнопка Приховати ховає текст виводячи зірочки замість введеної інформації, замінює назву кнопки на Розкрити, при повторному натисканні текст знову стає доступним і кнопка набуває початкового вигляду.  "
+                                "data": "У звітному HTML-документі створити html-розміту, яка складається з наступних елементів :   "
+                            }, {
+                                "type": "text",
+                                "data": "текст, кнопка, інпут (поле введення ). Кнопка Приховати ховає текст виводячи зірочки замість введеної інформації, "
+                            }, {
+                                "type": "text",
+                                "data": "замінює назву кнопки на Розкрити, при повторному натисканні текст знову стає доступним "
+                            }, {
+                                "type": "text",
+                                "data": "і кнопка набуває початкового вигляду."
                             }, {
                                 "type": "img",
                                 "data": "/l6_3_1.png"
@@ -1100,7 +1119,7 @@
                             },
                             {
                                 "type": "code",
-                                "data": "<div class='task'>\n<h2>Завдання №3</h2>\n<input id='input_task3' type='text'><button id='button_task3' onclick='hideText()'>Приховати</button>\n<script>function hideText() {let button_t3 = document.getElementById('button_task3');let input_t3 = document.getElementById('input_task3');if (input_t3.getAttribute('type') === 'password') {input_t3.setAttribute('type', 'text');button_t3.innerHTML = 'Приховати';} else {input_t3.setAttribute('type', 'password');button_t3.innerHTML = 'Розкрити';}}\n</script>\n</div>\n                                "
+                                "data": "<div class='task'>\n<h2>Завдання №3</h2>\n<input id='input_task3' type='text'>\n<button id='button_task3' onclick='hideText()'>Приховати</button>\n<script>function hideText()\n {let button_t3 = document.getElementById('button_task3');\nlet input_t3 = document.getElementById('input_task3');\nif (input_t3.getAttribute('type') === 'password')\n {input_t3.setAttribute('type', 'text');\nbutton_t3.innerHTML = 'Приховати';}\n else {input_t3.setAttribute('type', 'password');\nbutton_t3.innerHTML = 'Розкрити';}}\n</script>\n</div>\n                                "
                             }
                         ]
                     },
@@ -1108,7 +1127,10 @@
                         "header": "Завдання 5",
                         "content": [{
                                 "type": "text",
-                                "data": "У звітному HTML-документі створити html-розміту, яка складається з наступних елементів : - текст, з використанням селектора класу (class=taskTitle), -div, з використанням селектора ідентифікатора(id = place)"
+                                "data": "У звітному HTML-документі створити html-розміту, яка складається з наступних елементів : - текст, з використанням "
+                            }, {
+                                "type": "text",
+                                "data": "селектора класу (class=taskTitle), -div, з використанням селектора ідентифікатора(id = place)"
                             },
                             {
                                 "type": "img",
@@ -1124,8 +1146,15 @@
                         "header": "Завдання 7",
                         "content": [{
                                 "type": "text",
-                                "data": "Напиши скрипт, який: 1. Порахує і виведе в консоль кількість категорій в ul#categories, тобто елементів li.item. 2. Для кожного элемента li.item у списку ul#categories, знайде і виведе в консоль текст заголовку елемента (тегу h2) і кількість елементів в категорії(усіх li, вкладених в нього).Для виконання цього завдання потрібно використати метод forEach() і властивості навігації по DOM."
+                                "data": "Напиши скрипт, який: 1. Порахує і виведе в консоль кількість категорій в ul#categories, тобто елементів li.item. "
                             }, {
+                                "type": "text",
+                                "data": "(усіх li, вкладених в нього).Для виконання цього завдання потрібно використати метод forEach()"
+                            }, {
+                                "type": "text",
+                                "data": " і властивості навігації по DOM."
+                            },
+                            {
                                 "type": "img",
                                 "data": "/l6_7.png"
                             },
@@ -1139,15 +1168,29 @@
                         "header": "Завдання 8",
                         "content": [{
                                 "type": "text",
-                                "data": "1. Обробка відправлення форми form.login-form повинна відбуватися за подією submit. 2. Під час відправлення форми сторінка не повинна перезавантажуватися. 3. Якщо при сабміті у формі є незаповнені поля, виводь alert з попередженням про те, що 'All form fields must be filled in '. Не додавай на інпути атрибут required, валідація має відбуватися саме через JS. 4. Якщо користувач заповнив усі поля і відправив форму, збери значення полів в об'єкт з двома властивостями,де ключ— це ім 'я інпутів, а значення— відповідні значення цих інпутів, очищені від пробілів по краях.Для доступу до елементів форми використовуй властивість elements .5.При сабміті форми виведи об 'єкт із введеними даними в консоль і очисти значення полів форми методом reset. "
-                            },
-                            {
+                                "data": "1. Обробка відправлення форми form.login-form повинна відбуватися за подією submit.   "
+                            }, {
+                                "type": "text",
+                                "data": "2. Під час відправлення форми сторінка не повинна перезавантажуватися."
+                            }, {
+                                "type": "text",
+                                "data": "3. Якщо при сабміті у формі є незаповнені поля, виводь alert з попередженням про те, що 'All form fields must be filled in '.  "
+                            }, {
+                                "type": "text",
+                                "data": "Не додавай на інпути атрибут required, валідація має відбуватися саме через JS."
+                            }, {
+                                "type": "text",
+                                "data": " 4. Якщо користувач заповнив усі поля і відправив форму,збери значення полів в об'єкт з двома властивостями,де ключ— це ім 'я інпутів, а значення— відповідні значення цих інпутів, очищені від пробілів по краях.Для доступу до елементів форми використовуй властивість elements ."
+                            }, {
+                                "type": "text",
+                                "data": "5.При сабміті форми виведи об 'єкт із введеними даними в консоль і очисти значення полів форми методом reset."
+                            }, {
                                 "type": "img",
                                 "data": "/l6_8.png"
                             },
                             {
                                 "type": "code",
-                                "data": "console.log('Завдання №8\n')\nfunction handleSubmit(event) {\n    event.preventDefault();\n    form = event.target\n\n    let email = form.elements.email.value.trim()\n    let password = form.elements.password.value.trim()\n\n    if (email === '' || password === '') {\n        alert('Усі поля форми повинні бути заповненими, передивіться форму!!!')\n    } else {\n        let data = {}\n        data['email'] = email\n        data['password'] = password\n        form.reset()\n        console.log(data)\n    }\n}\n<form class='login-form' onsubmit='handleSubmit(event)'><label>Email<input type='email' name='email' /></label><label>Password<input type='password' name='password' /></label><button type='submit'>Log in</button></form>\n                                "
+                                "data": "console.log('Завдання №8\n')\nfunction handleSubmit(event) {\n    event.preventDefault();\n    form = event.target\n\n    let email = form.elements.email.value.trim()\n    let password = form.elements.password.value.trim()\n\n    if (email === '' || password === '') {\n        alert('Усі поля форми повинні бути заповненими, передивіться форму!!!')\n    } else {\n        let data = {}\n        data['email'] = email\n        data['password'] = password\n        form.reset()\n        console.log(data)\n    }\n}\n<form class='login-form' onsubmit='handleSubmit(event)'>\n<label>Email<input type='email' name='email' />\n</label><label>Password<input type='password' name='password' />\n</label><button type='submit'>Log in</button></form>\n                                "
                             }
                         ]
                     },
@@ -1162,7 +1205,7 @@
                             },
                             {
                                 "type": "code",
-                                "data": "let span = document.querySelector('span.color'); let btn_9 = document.querySelector('.change-color'); let widget = document.querySelector('.widget'); function getRandomHexColor() { return '#' + Math.floor(Math.random() * 16777215).toString(16).padStart(6, 0); }; btn_9.addEventListener('click', () => { let randomColor = getRandomHexColor(); span.innerHTML = randomColor; widget.style.backgroundColor = randomColor; }); <div class='widget ' > < p > Background color: < span class = 'color '>-</span></p> <button type='button ' class='change - color '>Change color</button> </div>                                "
+                                "data": "<div class='widget'>\n<p>Background color: <span class='color'>-</span></p>\n<button type='button' class='change-color'>Change color</button>\n</div>\n\n<script>\nlet span = document.querySelector('span.color');\nlet btn_9 = document.querySelector('.change-color');\nlet widget = document.querySelector('.widget');\n\nfunction getRandomHexColor() {\nreturn '#' + Math.floor(Math.random() * 16777215).toString(16).padStart(6, '0');\n};\n\nbtn_9.addEventListener('click', () => {\nlet randomColor = getRandomHexColor();\nspan.innerHTML = randomColor;\nwidget.style.backgroundColor = randomColor;\n});\n</script>\n"
                             }
                         ]
                     },
