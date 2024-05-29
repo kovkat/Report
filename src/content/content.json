@@ -1329,13 +1329,13 @@
                 "data": "Посилання на cертифікат: https://www.coursera.org/account/accomplishments/verify/X5E4EKXDBXA8"
             }, {
                 "type": "img",
-                "data": "/k_1/1.png"
+                "data": "/k_1/t1.png"
             }, {
                 "type": "img",
-                "data": "/k_1/2.png"
+                "data": "/k_1/t2.png"
             }, {
                 "type": "img",
-                "data": "/k_1/3.png"
+                "data": "/k_1/t3.png"
             }]
         }, {
             "header": "Модуль 1",
@@ -1385,31 +1385,31 @@
                 },
                 {
                     "type": "img",
-                    "data": "/mod_test_8_1/1.png"
+                    "data": "/mod_test_8_1/t1.png"
                 },
                 {
                     "type": "img",
-                    "data": "/mod_test_8_1/2.png"
+                    "data": "/mod_test_8_1/t2.png"
 
                 },
                 {
                     "type": "img",
-                    "data": "/mod_test_8_1/3.png"
+                    "data": "/mod_test_8_1/t3.png"
 
                 },
                 {
                     "type": "img",
-                    "data": "/mod_test_8_1/4.png"
+                    "data": "/mod_test_8_1/t4.png"
 
                 },
                 {
                     "type": "img",
-                    "data": "/mod_test_8_1/5.png"
+                    "data": "/mod_test_8_1/t5.png"
 
                 },
                 {
                     "type": "img",
-                    "data": "/mod_test_8_1/6.png"
+                    "data": "/mod_test_8_1/t6.png"
 
                 }
 
