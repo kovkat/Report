@@ -1414,7 +1414,414 @@
                 }
 
             ]
+        }, {
+            "header": "Модуль 2",
+            "content": [{
+                    "type": "text",
+                    "data": "Тест 1: "
+                },
+                {
+                    "type": "img",
+                    "data": "/l8_8.png"
+                },
+                {
+                    "type": "img",
+                    "data": "/l8_9.png"
+                }, {
+                    "type": "img",
+                    "data": "/l8_10.png"
+                }, {
+                    "type": "text",
+                    "data": "Тест 2: "
+                },
+
+                {
+                    "type": "img",
+                    "data": "/l8_11.png"
+
+                }, {
+                    "type": "img",
+                    "data": "/l8_12.png"
+                }, {
+                    "type": "text",
+                    "data": "Тест 3: "
+                },
+
+                {
+                    "type": "img",
+                    "data": "/l8_13.png"
+
+                },
+                {
+                    "type": "img",
+                    "data": "/l8_14.png"
+
+                }, {
+                    "type": "img",
+                    "data": "/l8_15.png"
+
+                },
+                {
+                    "type": "img",
+                    "data": "/l8_16.png"
+
+                }, {
+                    "type": "img",
+                    "data": "/l8_17.png"
+
+                }, {
+                    "type": "text",
+                    "data": "Тест 4: "
+                },
+
+                {
+                    "type": "img",
+                    "data": "/l8_18.png"
+
+                }, {
+                    "type": "img",
+                    "data": "/l8_19.png"
+                }, {
+                    "type": "img",
+                    "data": "/l8_20.png"
+                }, {
+                    "type": "text",
+                    "data": "Тест 5: "
+                },
+
+                {
+                    "type": "img",
+                    "data": "/l8_21.png"
+
+                }, {
+                    "type": "img",
+                    "data": "/l8_22.png"
+                }, {
+                    "type": "img",
+                    "data": "/l8_23.png"
+                },
+                {
+                    "type": "text",
+                    "data": "Тест Модульний: "
+                },
+                {
+                    "type": "img",
+                    "data": "/mod_test_8_2/t1.png"
+                },
+                {
+                    "type": "img",
+                    "data": "/mod_test_8_2/t2.png"
+
+                },
+                {
+                    "type": "img",
+                    "data": "/mod_test_8_2/t3.png"
+
+                },
+                {
+                    "type": "img",
+                    "data": "/mod_test_8_2/t4.png"
+
+                },
+                {
+                    "type": "img",
+                    "data": "/mod_test_8_2/t5.png"
+
+                },
+                {
+                    "type": "img",
+                    "data": "/mod_test_8_2/t6.png"
+
+                }
+
+            ]
+        }, {
+            "header": "Модуль 3 і Фінальне завдання модуль 4",
+            "content": [{
+                    "type": "text",
+                    "data": "Тест 1: "
+                },
+                {
+                    "type": "img",
+                    "data": "/l8_24.png"
+                },
+                {
+                    "type": "img",
+                    "data": "/l8_25.png"
+                }, {
+                    "type": "img",
+                    "data": "/l8_26.png"
+                }, {
+                    "type": "text",
+                    "data": "Тест 2: "
+                },
+
+                {
+                    "type": "img",
+                    "data": "/l8_27.png"
+
+                }, {
+                    "type": "img",
+                    "data": "/l8_28.png"
+                }, {
+                    "type": "img",
+                    "data": "/l8_29.png"
+                }, {
+                    "type": "text",
+                    "data": "Тест 3: "
+                },
+
+                {
+                    "type": "img",
+                    "data": "/l8_30.png"
+
+                },
+                {
+                    "type": "img",
+                    "data": "/l8_31.png"
+
+                }, {
+                    "type": "img",
+                    "data": "/l8_32.png"
+
+                },
+                {
+                    "type": "img",
+                    "data": "/l8_33.png"
+
+                }, {
+                    "type": "img",
+                    "data": "/l8_34.png"
+
+                }, {
+                    "type": "text",
+                    "data": "Тест 4: "
+                },
+
+                {
+                    "type": "img",
+                    "data": "/l8_35.png"
+
+                }, {
+                    "type": "img",
+                    "data": "/l8_36.png"
+                }, {
+                    "type": "img",
+                    "data": "/l8_37.png"
+                }, {
+                    "type": "text",
+                    "data": "Тест Модульний: "
+                },
+                {
+                    "type": "img",
+                    "data": "/mod_test_8_3/t1.png"
+                },
+                {
+                    "type": "img",
+                    "data": "/mod_test_8_3/t2.png"
+
+                },
+                {
+                    "type": "img",
+                    "data": "/mod_test_8_3/t3.png"
+
+                },
+                {
+                    "type": "img",
+                    "data": "/mod_test_8_3/t4.png"
+
+                },
+                {
+                    "type": "img",
+                    "data": "/mod_test_8_3/t5.png"
+
+                },
+                {
+                    "type": "img",
+                    "data": "/mod_test_8_3/t6.png"
+
+                }, {
+                    "type": "img",
+                    "data": "l8_re.png"
+
+                }
+
+            ]
         }],
-        "Лабораторна робота №9": []
+        "Лабораторна робота №9": [{
+            "header": "Курс",
+            "content": [{
+                "type": "text",
+                "data": "Посилання на курс: https://www.coursera.org/programs/program-natsional-nii-tiekhnichnii-univiersitiet-ukrayini-kiyivs-kii/learn/restful-apis-with-node-and-express"
+            }, {
+                "type": "text",
+                "data": "Посилання на cертифікат: https://www.coursera.org/account/accomplishments/verify/X5E4EKXDBXA8"
+            }, {
+                "type": "img",
+                "data": "/k_2/t1.png"
+            }, {
+                "type": "img",
+                "data": "/k_2/t2.png"
+            }, {
+                "type": "img",
+                "data": "/k_2/t3.png"
+            }]
+        }, {
+            "header": "Модуль 1",
+            "content": [{
+                    "type": "text",
+                    "data": "Тест 1: "
+                },
+                {
+                    "type": "img",
+                    "data": "/l9_1.png"
+                },
+                {
+                    "type": "img",
+                    "data": "/l9_2.png"
+                }, {
+                    "type": "img",
+                    "data": "/l9_3.png"
+                }, {
+                    "type": "text",
+                    "data": "Тест Модульний: "
+                },
+                {
+                    "type": "img",
+                    "data": "/mod_test_9_1/t1.png"
+                },
+                {
+                    "type": "img",
+                    "data": "/mod_test_9_1/t2.png"
+
+                },
+                {
+                    "type": "img",
+                    "data": "/mod_test_9_1/t3.png"
+
+                },
+                {
+                    "type": "img",
+                    "data": "/mod_test_9_1/t4.png"
+
+                },
+                {
+                    "type": "img",
+                    "data": "/mod_test_9_1/t5.png"
+
+                },
+                {
+                    "type": "img",
+                    "data": "/mod_test_9_1/t6.png"
+
+                },
+                {
+                    "type": "img",
+                    "data": "/mod_test_9_1/t7.png"
+
+                },
+                {
+                    "type": "img",
+                    "data": "/mod_test_9_1/t8.png"
+
+                }
+
+            ]
+        }, {
+            "header": "Модуль 2 Та 3",
+            "content": [{
+                    "type": "text",
+                    "data": "Тест 1: "
+                },
+                {
+                    "type": "img",
+                    "data": "/l9_4.png"
+                },
+                {
+                    "type": "img",
+                    "data": "/l9_5.png"
+                }, {
+                    "type": "img",
+                    "data": "/l9_6.png"
+                }, {
+                    "type": "text",
+                    "data": "Тест 2: "
+                },
+                {
+                    "type": "img",
+                    "data": "/l9_7.png"
+                },
+                {
+                    "type": "img",
+                    "data": "/l9_8.png"
+                }, {
+                    "type": "img",
+                    "data": "/l9_9.png"
+                }, {
+                    "type": "text",
+                    "data": "Тест Модульний: "
+                },
+                {
+                    "type": "img",
+                    "data": "/mod_test_9_2/t1.png"
+                },
+                {
+                    "type": "img",
+                    "data": "/mod_test_9_2/t2.png"
+
+                },
+                {
+                    "type": "img",
+                    "data": "/mod_test_9_2/t3.png"
+
+                },
+                {
+                    "type": "img",
+                    "data": "/mod_test_9_2/t4.png"
+
+                },
+                {
+                    "type": "img",
+                    "data": "/mod_test_9_2/t5.png"
+
+                },
+                {
+                    "type": "img",
+                    "data": "/mod_test_9_2/t6.png"
+
+                },
+                {
+                    "type": "img",
+                    "data": "/mod_test_9_2/t7.png"
+
+                },
+                {
+                    "type": "img",
+                    "data": "/mod_test_9_2/t8.png"
+
+                },
+                {
+                    "type": "img",
+                    "data": "/mod_test_9_2/t9.png"
+
+                },
+                {
+                    "type": "img",
+                    "data": "/mod_test_9_2/t10.png"
+
+                },
+                {
+                    "type": "img",
+                    "data": "/mod_test_9_2/t11.png"
+
+                },
+                {
+                    "type": "img",
+                    "data": "l9_res.png"
+
+                }
+
+            ]
+        }]
     }
 }
