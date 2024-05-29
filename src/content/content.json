@@ -1319,7 +1319,102 @@
                 }]
             }
         ],
-        "Лабораторна робота №8": [],
+        "Лабораторна робота №8": [{
+            "header": "Курс",
+            "content": [{
+                "type": "text",
+                "data": "Посилання на курс: https://www.coursera.org/programs/program-natsional-nii-tiekhnichnii-univiersitiet-ukrayini-kiyivs-kii/learn/react-basics"
+            }, {
+                "type": "text",
+                "data": "Посилання на cертифікат: https://www.coursera.org/account/accomplishments/verify/X5E4EKXDBXA8"
+            }, {
+                "type": "img",
+                "data": "/k_1/1.png"
+            }, {
+                "type": "img",
+                "data": "/k_1/2.png"
+            }, {
+                "type": "img",
+                "data": "/k_1/3.png"
+            }]
+        }, {
+            "header": "Модуль 1",
+            "content": [{
+                    "type": "text",
+                    "data": "Тест 1: "
+                },
+                {
+                    "type": "img",
+                    "data": "/l8_1.png"
+                },
+                {
+                    "type": "img",
+                    "data": "/l8_2.png"
+                }, {
+                    "type": "text",
+                    "data": "Тест 2: "
+                },
+                {
+                    "type": "img",
+                    "data": "/l8_3.png"
+                },
+                {
+                    "type": "img",
+                    "data": "/l8_4.png"
+
+                }, {
+                    "type": "text",
+                    "data": "Тест 3: "
+                },
+                {
+                    "type": "img",
+                    "data": "/l8_5.png"
+                },
+                {
+                    "type": "img",
+                    "data": "/l8_6.png"
+
+                },
+                {
+                    "type": "img",
+                    "data": "/l8_7.png"
+
+                }, {
+                    "type": "text",
+                    "data": "Тест Модульний: "
+                },
+                {
+                    "type": "img",
+                    "data": "/mod_test_8_1/1.png"
+                },
+                {
+                    "type": "img",
+                    "data": "/mod_test_8_1/2.png"
+
+                },
+                {
+                    "type": "img",
+                    "data": "/mod_test_8_1/3.png"
+
+                },
+                {
+                    "type": "img",
+                    "data": "/mod_test_8_1/4.png"
+
+                },
+                {
+                    "type": "img",
+                    "data": "/mod_test_8_1/5.png"
+
+                },
+                {
+                    "type": "img",
+                    "data": "/mod_test_8_1/6.png"
+
+                }
+
+            ]
+        }],
         "Лабораторна робота №9": []
     }
 }
